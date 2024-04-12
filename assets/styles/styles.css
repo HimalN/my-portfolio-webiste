@@ -34,10 +34,11 @@
     display: inline-block;
     color: white;
     font-family: "Arial Black";
-    font-size: 30px;
+    font-size: 25px;
 
     position: absolute;
-    margin-top: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
     left: 80px;
 }
 
