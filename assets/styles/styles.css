@@ -13,19 +13,17 @@
     display: inline-block;
     position: absolute;
     top: 10%;
-    left: 5px;
+    left: 25px;
 }
 .header-logo-name{
     display: inline-block;
     color: white;
-    font-family: Helvetica;
-    font-size: x-large;
+    font-family: "Arial Black";
+    font-size: 30px;
 
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 60px;
-    margin: 0;
+    margin-top: 15px;
+    left: 80px;
 }
 
 #navigation-pages{
