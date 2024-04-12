@@ -6,16 +6,14 @@
     background-color: #111017;
     position: sticky;
     width: 100%;
-    height: 60px;
+    height: 70px;
     top: 0;
 }
 #headerlogo {
     display: inline-block;
-
     position: absolute;
     top: 10%;
     left: 5px;
-
 }
 .header-logo-name{
     display: inline-block;
@@ -33,30 +31,126 @@
 #navigation-pages{
     display: inline-block;
     position: absolute;
-    left: 60%;
-    margin: 0;
-    bottom: 0;
-    top: 20px;
-
+    left: 50%;
+    top: 25px;
+    margin: 0px;
+    padding: 0;
+}
+#navigation-pages>a{
+    margin-left: 40px;
 }
 a:link{
     color: white;
     font-size: larger;
-    font-family: Arial;
+    font-family: Helvetica;
     text-decoration: none;
-    padding-left: 15px;
+}
+a:hover{
+    color: #FF4853;
+    animation-delay: 3s;
 }
 #hero{
     background-color: #0D0C12;
+    position: relative;
+    height: 550px;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
 
 }
 .socialIcons{
-    /*display: grid;*/
-    /*top: 50px;*/
-    /*left: 20px;*/
+    display: grid;
+    place-items: center;
+    position: absolute;
+    top: 100px;
+    bottom: 100px;
+    left: 80px;
 }
-.myImage{
 
+#myImage>img{
+    height: 90vh;
+    width: 45vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: auto;
+    margin: auto;
+
+}
+
+.homeTitles{
+    height: 400px;
+    width: 650px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 230px;
+    margin: auto;
+}
+#welcomeTitle{
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    font-family: "Arial Narrow";
+    margin-top: 20px;
+    height: 0;
+
+}
+#mainTitle{
+    font-family: "Arial Black";
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    height: 60px;
+}
+#custom-pro{
+    color: #FF4853;
+}
+#description{
+    color: white;
+    font-size: 25px;
+    font-family:"Arial Narrow";
+    margin-top: 30px;
+}
+.contactButtons{
+    height: 0;
+}
+#btn-portfolio{
+    border-radius: 25px;
+    background-color: #17151F;
+    color: white;
+    height: 40px;
+    width: 130px;
+    text-align: right;
+    padding-right: 10px;
+}
+#btn-contact{
+    border-radius: 25px;
+    background-color: #17151F;
+    color: white;
+    height: 40px;
+    width: 120px;
+    text-align: right;
+    padding-right: 10px;
+}
+#idIcon{
+    height: 20px;
+    width: 20px;
+    position:relative;
+    top: 3px;
+    right: 120px;
+
+}
+#phoneIcon{
+    height: 20px;
+    width: 20px;
+    position:relative;
+    top: 3px;
+    right: 110px;
 }
 #aboutMe{
     background-color: #100F16;
