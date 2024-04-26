@@ -1,3 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Concert+One&family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Commissioner:wght@100..900&family=Concert+One&family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Bungee+Spice&family=Commissioner:wght@100..900&family=Concert+One&family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Bungee+Spice&family=Commissioner:wght@100..900&family=Concert+One&family=Hind+Siliguri:wght@300;400;500;600;700&family=Inder&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Bungee+Spice&family=Commissioner:wght@100..900&family=Concert+One&family=Hind+Siliguri:wght@300;400;500;600;700&family=Inder&family=Lalezar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Bungee+Spice&family=Commissioner:wght@100..900&family=Concert+One&family=Hind+Siliguri:wght@300;400;500;600;700&family=Inder&family=Lalezar&family=Sen:wght@400..800&display=swap');
+
+/*html {
+    scroll-behavior: smooth;
+}
+.scroller {
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.scroller section {
+    scroll-snap-align: start;
+}*/
 #header-things{
 
 }
@@ -19,7 +39,7 @@
 }
 .header{
     background-color: #111017;
-    position: relative;
+    position: sticky;
     overflow: hidden;
     width: 100%;
     height: 70px;
@@ -48,7 +68,7 @@
     position: absolute;
     left: 50%;
     top: 25px;
-    margin: 0px;
+    margin: 0;
     padding: 0;
 }
 #navigation-pages>a{
@@ -238,7 +258,7 @@ a:hover{
 }
 #aboutTitles>h2{
     color: white;
-    font-family: "Arial Black";
+    font-family: Bungee Inline,static;
     font-size: 35px;
     text-decoration: underline;
 
@@ -270,6 +290,7 @@ a:hover{
     color: #FF4853;
 }
 #see-gallery{
+    background-color: #17151F;
     position: absolute;
     top: 150px;
     right: 600px;
@@ -278,7 +299,6 @@ a:hover{
     margin: auto;
 
     border-radius: 25px;
-    background-color: #17151F;
     color: white;
     height: 40px;
     width: 155px;
@@ -295,33 +315,207 @@ a:hover{
     right: 100px;
     margin: auto;
 }
-#education{
+.education{
     background-color: #14121B;
+    height: 100vh;
+    width: 100%;
 
 }
-#header{
+.education-header{
+    background-color: #191721;
     display: inline-block;
     position: relative;
-    width: 75vw;
+    width: 85vw;
     height: 80px;
     top: 20px;
     bottom: 0;
-    left: 12vw;
+    left: 8vw;;
     margin: auto;
-    background-color: #191721;
     border-radius: 20px;
+    font-family: Lalezar;
 }
-#header>div>a{
+.education-header>div>a{
     display:inline-block;
     position: relative;
     top: 25px;
     padding-right: 45px;
     padding-left: 30px;
-    font-size: 25px;
+    font-size: 30px;
     font-family: "Arial Black";
 }
+.edu-links>a{
+    color: white;
+}
+.edu-links>a:hover{
+    color: #FF4853;
 
-#Portfolio{
-    background-color: #191721;
+}
+.educationbottom{
+    height: 100px;
+    width: 500px;
+}
+.container{
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+    margin: 0 15px;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+.skill-container .skill-box{
+    width: 100%;
+    margin: 25px 0;
+}
+.skill-box .title{
+    display: block;
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: Inder;
+    color: White;
+}
+.skill-box .skill-bar{
+    height: 8px;
+    width: 70%;
+    margin-top: 2px;
+    border-radius: 6px;
+    background: grey;
+}
+.skill-bar .skill-per{
+    position: relative;
+    display: block;
+    height: 100%;
+    border-radius: 6px;
+    background: #FF4853;
+    animation: progress 0.50s ease-in-out forwards;
+}
+.skill-per-html{
+    width: 90%;
+}
+.skill-per-css{
+    width: 85%;
+}
+.skill-per-js{
+    width: 85%;
+}
+.skill-per-software{
+    width: 80%;
+}
+.skill-per-plugin{
+    width: 75%;
+}
+.skill-per-figma{
+    width: 90%;
+}
+.skill-per-xd{
+    width: 60%;
+}
+.skill-per-ps{
+    width: 95%;
+}
+.skill-per-ail{
+    width: 45%;
+}
+.skill-per-design{
+    width: 98%;
+}
+@keyframes progress {
+    0%{
+        width: 0;
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.skill-per .tool-tip{
+    position: absolute;
+    right: -14px;
+    top: -28px;
+    font-size: 11px;
+    font-family: Arial;
+    font-weight: bold;
+    color: black;
+    padding: 2px 6px;
+    border-radius: 3px;
+    background: #FFFF;
+    z-index: 1;
+}
+.tool-tip::before{
+    content: '';
+    position: absolute;
+    left: 35%;
+    top: 13px;
+    bottom: -2px;
+    height: 10px;
+    width: 10px;
+    z-index: -1;
+    background-color: #FFFF;
+    transform: translateY(-50%) rotate(45deg);
+}
+.skill-sliders{
+    display: grid;
+    grid-template-columns: 32vw 32vw 30vw;
+    position: relative;
+    top: 10px;
+    left: 15%;
+    right: 0;
+    gap: 0;
+}
+.developmentSkill>p{
+    color: #FF4853;
+    font-family: Inder;
+    font-size: 20px;
+    position: relative;
+    top: 45px;
+}
+.developmentSkill>h3{
+    font-family: "Concert One";
+    font-size: 40px;
+    color: white;
+    font-weight: 100;
+}
+.designSkills>p{
+    color: #FF4853;
+    font-family: Inder;
+    font-size: 20px;
+    position: relative;
+    top: 45px;
+}
+.designSkills>h3{
+    font-family: Concert One;
+    font-size: 40px;
+    color: white;
+    font-weight: 100;
+}
+#skill-image {
+    height: 420px;
+    width: 420px;
+}
+.item3{
+    width: 400px;
+    position: relative;
+    top: 30px;
+    right: 50px;
+    margin-left: 0;
 }
 
+.developmentSkillIcons>img{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 20px;
+    left: 65px;
+}
+.designSkillIcons>img{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: -45px;
+    left: 500px;
+}
+#Portfolio{
+    background-color: #191721;
+    height: 100vh;
+    width: 100%;
+
+}
