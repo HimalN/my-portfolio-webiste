@@ -74,7 +74,7 @@
 #navigation-pages>a{
     margin-left: 40px;
 }
-a:link{
+a:link,a:visited{
     color: white;
     font-size: larger;
     font-family: Helvetica;
@@ -82,7 +82,7 @@ a:link{
 }
 a:hover{
     color: #FF4853;
-    animation-delay: 3s;
+    transition: ease-in-out 300ms;
 }
 #hero{
     background-color: #0D0C12;
@@ -150,6 +150,9 @@ a:hover{
     top: 100px;
     bottom: 100px;
     left: 80px;
+}
+#fb>svg>g:hover,#fb{
+    fill: #FF4853;
 }
 
 #myImage>img{
@@ -325,29 +328,31 @@ a:hover{
     background-color: #191721;
     display: inline-block;
     position: relative;
-    width: 85vw;
-    height: 80px;
+    width: 77vw;
+    height: 70px;
     top: 20px;
     bottom: 0;
-    left: 8vw;;
+    left: 12vw;;
     margin: auto;
     border-radius: 20px;
     font-family: Lalezar;
 }
-.education-header>div>a{
+.education-header>div>div{
     display:inline-block;
     position: relative;
-    top: 25px;
+    line-height: 70px;
     padding-right: 45px;
     padding-left: 30px;
-    font-size: 30px;
+    font-size: 25px;
     font-family: "Arial Black";
 }
-.edu-links>a{
+.edu-links>div{
     color: white;
 }
-.edu-links>a:hover{
+.edu-links>div:hover{
     color: #FF4853;
+    cursor: pointer;
+    transition: ease-in-out 300ms;
 
 }
 .educationbottom{
@@ -513,9 +518,246 @@ a:hover{
     top: -45px;
     left: 500px;
 }
-#Portfolio{
+
+/*Education Section*/
+.education-qualification{
+    background-color:#14121B ;
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    top: 30px;
+    left: 32vw;
+}
+.education-q-eader>h3{
+    color: white;
+    font-family: Bungee Inline, static;
+    font-size: 35px;
+    font-weight: 500;
+
+    position: relative;
+    top: 0;
+    margin: auto;
+    text-align: center;
+}
+.education-q-eader>hr{
+    width: 150px;
+    position: relative;
+    margin-top: 0;
+    align-items: center;
+}
+.education-q-eader>p{
+    color: #FF4853;
+    font-family: Hannari;
+    position: relative;
+    margin-top: -5px;
+    text-align: center;
+}
+
+.edu-qualification-body{
+    display: grid;
+    grid-template-columns:300px 300px 300px;
+    justify-content: center;
+}
+
+.edu-qualification-body>div{
+    height: 172px;
+    width: 249px;
+    border-radius: 20px;
+    background-color: #0B0A12;
+
+    color: #FFF;
+    text-align: center;
+
+    position: relative;
+    top: 20px;
+    margin-bottom: 20px;
+}
+.edu-qualification-body>div>h5{
+    color: #FF4853;
+    font-size: 20px;
+
+
+    margin: 0;
+    padding-top: 10px;
+}
+.edu-qualification-body>div>p{
+    width: 200px;
+    height: 120px;
+
+    padding-top: 15px;
+
+    position: relative;
+    margin: auto;
+
+    font-family: sen;
+    font-size: 12px;
+
+}
+.edu-qualification-body>div>hr{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.uniImages{
+    text-align: center;
+    width: 800px;
+}
+.uniImages>img{
+    display: inline-block;
+    height: 80px;
+    width: 160px;
+
+    position: relative;
+    left: -150px;
+    top: 20px;
+    margin: auto;
+    padding-left: 0;
+    padding-right: 50px;
+
+}
+
+/*Experience Section*/
+.experience{
+    background-color:#14121B ;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+.experience-tree{
+    position: relative;
+    left: 350px;
+    top: 80px;
+}
+.experience-tree>#main-line{
+    width: 700px;
+    height: 5px;
+    background-color: #8C3439;
+    align-content: center;
+    position: relative;
+    right: 250px;
+    top: 200px;
+
+}
+.sub-line{
+    height: 80px;
+    width: 2px;
+    background-color: #8C3439;
+    position: absolute;
+}
+#sub-line-1{
+    top: 120px;
+    right: 692px;
+}
+#sub-line-2{
+    top: 200px;
+    right: 556px;
+}
+#sub-line-3{
+    top: 120px;
+    right: 412px;
+}
+#sub-line-4{
+    top: 200px;
+    right: 262px;
+}
+#sub-line-5{
+    top: 120px;
+    right: 111px;
+}
+.circle{
+    background-color: #8C3439;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    position: relative;
+}
+#circle-1{
+    top: 190px;
+    left: -200px;
+}
+#circle-2{
+    top: 175px;
+    right: 65px;
+}
+#circle-3{
+    top: 160px;
+    right: -80px;
+}
+#circle-4{
+    top: 145px;
+    right: -230px;
+}
+#circle-5{
+    top: 130px;
+    right: -380px;
+}
+#ex-image-back{
+    /*background-color: #0B0A12;
+    width: 400px;
+    height: 75vh;
+    border-radius: 10%;
+
+    position: relative;
+    top: -680px;
+    left: 930px;
+    right: 50px;
+    align-content: center;*/
+}
+#experience-image{
+    height: 75vh;
+    width: 380px;
+    position:relative;
+    bottom: 680px;
+    right: 40px;
+    left: 900px;
+}
+.experience-box{
+    height: 130px;
+    width: 200px;
+    background-color: #0B0A12;
+    border-radius: 15% 15% 15% 15%;
+
+    position: relative;
+
+}
+#experience-box-1{
+    bottom: 90px;
+    right: 280px;
+}
+#experience-box-2{
+    top:  70px;
+    right: 160px;
+}
+#experience-box-3{
+    bottom: 350px;
+    right: 10px;
+}
+#experience-box-4{
+    bottom: 190px;
+    right: -135px;
+}
+#experience-box-5{
+    bottom: 600px;
+    right: -285px;
+}
+
+.Portfolio{
     background-color: #191721;
     height: 100vh;
     width: 100%;
 
+}
+.Clients{
+    background-color: #14121B;
+    height: 100vh;
+    width: 100%;
+}
+.Contact{
+    background-color: #100F16;
+    height: 100vh;
+    width: 100%;
+}
+.footer{
+    background-color: #0D0C12;
+    height: 40vh;
+    width: 100%;
 }
