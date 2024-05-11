@@ -18,6 +18,9 @@
 .scroller section {
     scroll-snap-align: start;
 }*/
+body{
+    overflow-x: hidden;
+}
 #header-things{
 
 }
@@ -773,6 +776,26 @@ a:hover{
 .assignment-square>p:hover{
     color: #FFFFFF;
     transition: ease-in-out 0.2s ;
+}
+.contact-form{
+
+}
+.contactForm>h3{
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 5px;
+    margin: auto;
+
+    color: #FFFF;
+    font-family: "Concert One" ;
+    font-size: 35px;
+    font-weight: 20;
+}
+.contactForm>hr{
+    width: 100px;
 }
 .Portfolio{
     background-color: #191721;

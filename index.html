@@ -7,6 +7,8 @@
         <meta name="author" content="Himal Nimsara">
         <link rel="stylesheet" href="assets/styles/normalize.css">
         <link rel="stylesheet" href="assets/styles/styles.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <link rel="icon" type="image/x-icon" href="assets/images/site-icon.png">
     </head>
     <body>
@@ -30,6 +32,7 @@
                     </div>
                 </header>
             </section>
+
 
 
             <!--hero section-->
@@ -76,7 +79,7 @@
 
                 <!--Right Side-->
                 <div id="myImage">
-                    <img src="assets/images/my-image.png" alt="myImage">
+                    <img src="assets/images/my-image.png" alt="myImage" >
                 </div>
             </section>
 
@@ -120,7 +123,6 @@
 
                 <!--education body section-->
                 <section class="educationbottom">
-
                     <!--professional skills section-->
                     <section class="professionalskills">
 
@@ -341,12 +343,9 @@
                                         <div id="experience-box-3" class="experience-box"></div>
                                         <div id="experience-box-4" class="experience-box"></div>
                                         <div id="experience-box-5" class="experience-box"></div>
-
                                     </div>
-
                                 </div>
                             </div>
-
 
                             <div class="right side">
                                 <div id="ex-image-back"></div>
@@ -392,8 +391,8 @@
             </section>
 
             <!--Portfolio section-->
-            <section class="Portfolio">
-                <!--<div>
+            <!--<section class="Portfolio">
+                <div>
                     <h3>My Portfolio</h3>
                     <p>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</p>
                 </div>
@@ -439,12 +438,12 @@
                     <div>
                         <img src="assets/images/icons8-arrow-645.png" alt="rightbutton2">
                     </div>
-                </div>-->
-            </section>
+                </div>
+            </section>-->
 
             <!--Clients Section-->
-            <section class="Clients">
-                <!--<div id="clientHeader">
+            <!--<section class="Clients">
+                <div id="clientHeader">
                     <h3>My Clients</h3>
                     <p>Popular Clients</p>
                 </div>
@@ -502,14 +501,15 @@
                         <img src="assets/images/filled-yellow-star.png" alt="star">
                         <img src="assets/images/yellow-star.png" alt="star">
                     </div>
-                </div>-->
-            </section>
+                </div>
+            </section>-->
 
             <!--Contact Section-->
-            <section class="Contact">
-                <!--<section id="contactsection">
-                    <div id="contactForm">
-                        <h2>Contact Me</h2>
+            <section class="Contact" id="Contact">
+                <div class="contact-form">
+                    <div class="contactForm">
+                        <h3>Contact Me</h3>
+                        <hr>
                         <form>
                             <label for="Name">Name</label>
                             <br>
@@ -533,13 +533,13 @@
                         </form>
                     </div>
 
-                    <div id="messagebutoon">
+                    <div class="message-button">
                         <button>Send Message</button>
                         <img src="assets/images/mail-icon.png" alt="mainIcon">
                     </div>
-                </section>
+                </div>
 
-                <section id="contactImage">
+                <div class="contact-image">
 
                     <div id="image">
                         <img src="assets/Call%20center-cuate.png" alt="callCenter" width="50%" height="50%">
@@ -557,7 +557,7 @@
                     <div id="contactText">
                         <h4>Don't be a Stranger. Contact us now.</h4>
                     </div>
-                </section>-->
+                </div>
             </section>
 
             <footer>
@@ -618,5 +618,9 @@
 
         <script src="assets/lib/jquery-3.7.1.min.js"></script>
         <script src="assets/js/script.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
