@@ -6,6 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Bungee+Spice&family=Commissioner:wght@100..900&family=Concert+One&family=Hind+Siliguri:wght@300;400;500;600;700&family=Inder&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Bungee+Spice&family=Commissioner:wght@100..900&family=Concert+One&family=Hind+Siliguri:wght@300;400;500;600;700&family=Inder&family=Lalezar&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Bungee+Spice&family=Commissioner:wght@100..900&family=Concert+One&family=Hind+Siliguri:wght@300;400;500;600;700&family=Inder&family=Lalezar&family=Sen:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
 
 /*html {
     scroll-behavior: smooth;
@@ -777,26 +778,6 @@ a:hover{
     color: #FFFFFF;
     transition: ease-in-out 0.2s ;
 }
-.contact-form{
-
-}
-.contactForm>h3{
-    height: fit-content;
-    width: fit-content;
-    position: relative;
-    left: 0;
-    right: 0;
-    top: 5px;
-    margin: auto;
-
-    color: #FFFF;
-    font-family: "Concert One" ;
-    font-size: 35px;
-    font-weight: 20;
-}
-.contactForm>hr{
-    width: 100px;
-}
 .Portfolio{
     background-color: #191721;
     width: 100%;
@@ -888,9 +869,19 @@ a:hover{
     transform: translateY(-30px);
     transition:0.5s all;
 }
+.info{
+    justify-content: center;
+}
 .info h1{
     transition: 0.5s ease-in;
+    position: relative;
+    top: 50px;
+    left: 10px;
+    font-size: 20px;
+    font-family: "Concert One";
+    font-weight: 100;
 }
+
 .card:hover .info>h1{
     opacity: 0;
     transition: 0.5s ease-out;
@@ -927,22 +918,21 @@ a:hover{
     transform: translateY(0px);
 }
 
-
-
-
-
 .Clients{
     background-color: #14121B;
     height: 100vh;
     width: 100%;
+    align-content: center;
+    text-align: center;
 }
 .clientHeader{
     text-align: center;
+    top: -70px;
+    position: relative;
 }
 .clientHeader>h3{
     margin: 0;
     position: relative;
-    top: 10px;
     font-family: Bungee Inline, static;
     font-size: 30px;
     font-weight: 50;
@@ -951,18 +941,109 @@ a:hover{
 .clientHeader>hr{
     width: 160px;
     position: relative;
-    top: 3px;
+    top: -5px;
 }
 .clientHeader>p{
     color: #FF4853;
     font-size: 13px;
     position: relative;
-    top: -5px;
+    top: -10px;
+}
+.clientSection{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+}
+.client-back{
+    background-color: #0D0C12;
+    height: 300px;
+    width: 280px;
+    position: relative;
+    top: -35px;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 10% 10% 10% 10%;
+}
+.client-back>.client-profilepic{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 10%;
+}
+.client-back>h5{
+    position: relative;
+    text-align: center;
+    color: #FF4853;
+    font-family: Cabin;
+    font-size: 20px;
+}
+.client-back>p{
+    height: 100px;
+    width: 250px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5%;
+    font-family: Cabin;
+    font-size: 15px;
+    color: white;
+}
+.rating-stars{
+    display: flex;
+    height: 25px;
+    position: relative;
+    top: -10%;
+    left: 30%;
+}
+.rating-stars>img{
+    height: 20px;
+    width: 20px;
 }
 .Contact{
     background-color: #100F16;
     height: 100vh;
     width: 100%;
+}
+.contact-body{
+    display: flex;
+    flex-direction: row;
+}
+.Contact>h3{
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 15px;
+    margin: auto;
+
+    color: #FFFF;
+    font-family:Bungee Inline, static;
+    font-size: 35px;
+    font-weight: 200;
+}
+.Contact>hr{
+    width: 100px;
+    position: relative;
+    top: 10px;
+}
+.contact-form{
+    position: relative;
+}
+.contact-box{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0B0A12;
+    height: 82vh;
+    width: 40%;
+    top: 30px;
+    border-radius: 10% 10% 10% 10%;
+}
+.contactForm{
+}
+.contact-image{
+
 }
 .footer{
     background-color: #0D0C12;

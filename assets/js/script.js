@@ -21,6 +21,7 @@ $("#nav-experience").eq(0).on('click', ()=>{
     $('.professionalskills').css({display:'none'})
     $('.assignments').css({display:'none'})
 });
+
 $("#nav-assignments").eq(0).on('click', ()=>{
     $('.assignments').css({display:'block'})
     $('.experieenc').css({display:'none'})
