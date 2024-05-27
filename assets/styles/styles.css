@@ -7,6 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Bungee+Spice&family=Commissioner:wght@100..900&family=Concert+One&family=Hind+Siliguri:wght@300;400;500;600;700&family=Inder&family=Lalezar&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Bungee+Spice&family=Commissioner:wght@100..900&family=Concert+One&family=Hind+Siliguri:wght@300;400;500;600;700&family=Inder&family=Lalezar&family=Sen:wght@400..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Contrail+One&display=swap');
 
 /*html {
     scroll-behavior: smooth;
@@ -1041,9 +1042,45 @@ a:hover{
     border-radius: 10% 10% 10% 10%;
 }
 .contactForm{
+
+}
+.contactText{
+    position: relative;
+    top: -23px;
+}
+.contactForm>form>label{
+    color: #FFFFFF;
 }
 .contact-image{
-
+    overflow: hidden;
+}
+.contact-image-right>img{
+    height: 75vh;
+    width: 88%;
+    position: relative;
+    left: 5%;
+}
+.contactSocial{
+    display: flex;
+    position: relative;
+    top: -30px;
+    left: 70px;
+}
+.contactSocial>a>img{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.contactText{
+    text-align: center;
+}
+.contactText>h4{
+    font-family:Contrail One;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 500;
 }
 .footer{
     background-color: #0D0C12;
