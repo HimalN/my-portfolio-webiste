@@ -1078,10 +1078,97 @@ a:hover{
 }
 .contactText>h4{
     font-family:Contrail One;
-    color: #FFFFFF;
+    color: #FF4853;
     font-size: 25px;
     font-weight: 500;
 }
+.labelNames{
+    font-family: Cabin;
+    color: #FFFFFF;
+    position: relative;
+    font-size: 20px;
+}
+.contactForm>form>input{
+    background-color: #17151F;
+    height: 30px;
+    border-radius: 15px 15px 15px 15px;
+    position: relative;
+    box-shadow: 5px 5px #080611;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+#lbl-name{
+    top: -50px;
+    left: 40px;
+}
+#Name {
+    top: -20px;
+    left: -20px;
+}
+#lbl-phone{
+    top: -50px;
+    left: 30px;
+}
+#phone {
+    top: -20px;
+    left: -35px;
+}
+#lbl-email{
+    top: -10px;
+    left: 40px;
+}
+#email{
+    top: 20px;
+    left: -15px;
+}
+#lbl-subject{
+    top: -10px;
+    left: 30px;
+}
+#subject{
+    top: 20px;
+    left: -40px;
+}
+#lbl-message{
+    top: 30px;
+    left: 40px;
+}
+#message{
+    top: 35px;
+    left: 30px;
+    width: 85%;
+    height: 200px;
+}
+.message-button{
+    position: relative;
+    top: 5px;
+}
+#send-msg{
+    background-color: #17151F;
+    color: #FF4853;
+    font-size: 20px;
+    font-family: Cabin;
+    text-align: left;
+    height: 45px;
+    width: 200px;
+    border-radius: 15px 15px 15px 15px;
+    position: relative;
+    top: 20px;
+    left: 160px;
+    cursor: pointer;
+}
+.message-button>img{
+    width: 45px;
+    height: 45px;
+    position: relative;
+    left: 95px;
+    top: 35px;
+    cursor: pointer;
+}
+
+
+
+
 .footer{
     background-color: #0D0C12;
     height: 40vh;
