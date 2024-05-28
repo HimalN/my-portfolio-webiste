@@ -1165,12 +1165,119 @@ a:hover{
     top: 35px;
     cursor: pointer;
 }
-
-
-
-
 .footer{
     background-color: #0D0C12;
-    height: 40vh;
+    height: 50vh;
     width: 100%;
+    position: relative;
+}
+.pages{
+    position: relative;
+}
+.footer>.pages>h3{
+    margin-top: 0;
+    color: #FF4853;
+    font-size: 30px;
+    font-family: cabin;
+    position: relative;
+    top: 20px;
+    left: 80px;
+}
+.pages>a{
+    display: grid;
+    width: 50px;
+    position: relative;
+    left: 80px;
+    margin-bottom: 5px;
+}
+.Categories{
+    position: relative;
+}
+.Categories>h3{
+    position: relative;
+    top: -230px;
+    left: 250px;
+
+    color: #FF4853;
+    font-family: cabin;
+    font-size: 30px;
+}
+.Categories>a{
+    display: grid;
+    width: 160px;
+    position: relative;
+    top: -250px;
+    left: 250px;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+.Categories>a:hover{
+    color: #FF4853;
+    transition: ease-in-out 300ms; ;
+}
+.news-letter{
+    position: relative;
+}
+#sub-id{
+    color: #ffffff;
+    position: relative;
+    top: -360px;
+    left: 600px;
+    font-size: 15px;
+    font-family: cabin;
+}
+#news-email1{
+    position: relative;
+    top: -360px;
+    left: 595px;
+    background-color: #17151F;
+    height: 30px;
+    width: 250px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 5px 5px #080611;
+    font-family: cabin;
+    text-align: left;
+}
+#news-email1::placeholder{
+    color: #FF4853;
+}
+.news-letter>.news-letter-button>#news-send{
+    background-color: #17151F;
+    color: #FF4853;
+    font-size: 18px;
+    font-family: Cabin;
+    text-align: left;
+    height: 40px;
+    width: 135px;
+    border-radius: 15px 15px 15px 15px;
+    position: relative;
+    top: -405px;
+    left: 860px;
+    cursor: pointer;
+}
+.news-letter-button>img{
+    position: relative;
+    bottom: 394px;
+    left: 812px;
+    height: 35px;
+    width: 35px;
+}
+.footer-right>hr{
+    width: 100px;
+}
+.footerBottom{
+    position: relative;
+}
+.footerBottom>hr{
+    position: relative;
+    top: -70px;
+}
+.footerBottom>#coppyright{
+    position: relative;
+    font-family: cabin;
+    font-size: 20px;
+    color: #FFFFFF;
+
+    top: -70px;
+    left: 5%;
 }
