@@ -8,6 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Bungee+Spice&family=Commissioner:wght@100..900&family=Concert+One&family=Hind+Siliguri:wght@300;400;500;600;700&family=Inder&family=Lalezar&family=Sen:wght@400..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Contrail+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&display=swap');
 
 /*html {
     scroll-behavior: smooth;
@@ -1165,6 +1166,10 @@ a:hover{
     top: 35px;
     cursor: pointer;
 }
+.bottom{
+    height: 50vh;
+    width: 100%;
+}
 .footer{
     background-color: #0D0C12;
     height: 50vh;
@@ -1191,24 +1196,28 @@ a:hover{
     margin-bottom: 5px;
 }
 .Categories{
-    position: relative;
+    position: absolute;
+    height: 200px;
+    top: 25px;
+    left: 250px;
 }
 .Categories>h3{
     position: relative;
-    top: -230px;
-    left: 250px;
+    top: -0px;
+    left: 0px;
 
     color: #FF4853;
     font-family: cabin;
     font-size: 30px;
+    margin: 0;
 }
 .Categories>a{
     display: grid;
     width: 160px;
     position: relative;
-    top: -250px;
-    left: 250px;
-    margin-bottom: 5px;
+    top: 5px;
+    left: 0px;
+    margin-bottom: 10px;
     color: #ffffff;
 }
 .Categories>a:hover{
@@ -1216,20 +1225,24 @@ a:hover{
     transition: ease-in-out 300ms; ;
 }
 .news-letter{
-    position: relative;
+    position: absolute;
+    left: 500px;
+    top: 40px;
+    height: 150px;
+    width: 400px;
 }
 #sub-id{
     color: #ffffff;
     position: relative;
-    top: -360px;
-    left: 600px;
+    top: 0px;
+    left: 10px;
     font-size: 15px;
     font-family: cabin;
 }
 #news-email1{
     position: relative;
-    top: -360px;
-    left: 595px;
+    top: -0;
+    left: 0;
     background-color: #17151F;
     height: 30px;
     width: 250px;
@@ -1251,26 +1264,94 @@ a:hover{
     width: 135px;
     border-radius: 15px 15px 15px 15px;
     position: relative;
-    top: -405px;
-    left: 860px;
+    top: -45px;
+    left: 270px;
     cursor: pointer;
 }
 .news-letter-button>img{
     position: relative;
-    bottom: 394px;
-    left: 812px;
+    top: -32px;
+    left: 220px;
     height: 35px;
     width: 35px;
 }
+.footer-right{
+    position: absolute;
+    top: 20px;
+    width: 300px;
+    height: 200px;
+    left: 75%;
+    
+}
 .footer-right>hr{
-    width: 100px;
+    width: 1px;
+    background-color: #FFFFFF;
+    height: 180px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px 10px 10px 10px;
+}
+.footer-right>#footer-icon{
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+.footer-right>h4{
+    position: absolute;
+    top: -25px;
+    left: 60px;
+    font-size: 35px;
+    color: #FFFF;
+    font-family: Concert One;
+    font-weight: 100;
+}
+.contact-number{
+    position: absolute;
+    top: 75px;
+    left: 20px;
+    width: 250px;
+    height: 130px;
+    font-family: "Advent Pro";
+}
+#call-me{
+    color: #FF4853;
+    position: relative;
+    font-size: 20px;
+    margin: 0;
+}
+#call-no{
+    color: #FFF;
+    position: relative;
+    top: 0px;
+    font-size: 25px;
+    margin: 0;
+}
+#whatsApp-contact{
+    color: #FF4853;
+    position: absolute;
+    font-size: 20px;
+    top:60px;
+    margin: 0;
+}
+#wa-no{
+    color: #FFF;
+    font-size: 25px;
+    position:relative;
+    top: 30px;
+    margin: 0;
+
 }
 .footerBottom{
-    position: relative;
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    top: 235px;
 }
 .footerBottom>hr{
-    position: relative;
-    top: -70px;
+    position: absolute;
+    width: 100%;
+    margin: 0;
 }
 .footerBottom>#coppyright{
     position: relative;
@@ -1278,8 +1359,33 @@ a:hover{
     font-size: 20px;
     color: #FFFFFF;
 
-    top: -70px;
-    left: 5%;
+    top: 0px;
+    left: 20px;
+}
+.social-media-footer{
+    position: absolute;
+    height: 55px;
+    top: -10px;
+    margin: 0;
+}
+.social-media-footer>a{
+    position: relative;
+    top: -12px;
+}
+#facebook-footer{
+    height: 58px;
+    width: 58px;
+    top: 27px;
+    margin: 0;
+}
+.social-media-footer>a>img{
+    position: relative;
+    top: 22px;
+    left: 950px;
+
+    margin-right: 15px;
+    height: 50px;
+    width: 50px;
 }
 
 @media all and(max-width: 1480px){
