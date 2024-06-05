@@ -1281,3 +1281,7 @@ a:hover{
     top: -70px;
     left: 5%;
 }
+
+@media all and(max-width: 1480px){
+
+}
