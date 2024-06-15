@@ -28,3 +28,12 @@ $("#nav-assignments").eq(0).on('click', ()=>{
     $('.education-qualification').css({display:'none'})
     $('.professionalskills').css({display:'none'})
 });
+
+function showSidebar(){
+    const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display = 'flex'
+}
+function hideSidebar(){
+    const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display = 'none'
+}

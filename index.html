@@ -16,24 +16,28 @@
     <body>
         <article class="scroller">
             <!--Navigation bar-->
-            <section id="header-things">
-                <header class="header">
-                    <div id="headerlogo">
-                        <img src="assets/images/brain-code-icon.png" alt="brainIcon">
-                    </div>
-                    <div class="header-logo-name">
-                        <p>HN</p>
-                    </div>
-                    <div id="navigation-pages">
-                        <a href="#header-things">Home</a>
-                        <a href="#aboutMe">About</a>
-                        <a href="#education">Education</a>
-                        <a href="#Portfolio">Portfolio</a>
-                        <a href="#Clients">Clients</a>
-                        <a href="#Contact">Contact</a>
-                    </div>
-                </header>
-            </section>
+            <nav>
+                <ul class="sidebar">
+                    <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="64px" height="64px"><g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(8,8)"><path d="M7.21875,5.78125l-1.4375,1.4375l8.78125,8.78125l-8.78125,8.78125l1.4375,1.4375l8.78125,-8.78125l8.78125,8.78125l1.4375,-1.4375l-8.78125,-8.78125l8.78125,-8.78125l-1.4375,-1.4375l-8.78125,8.78125z"></path></g></g></svg></a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Education</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Clients</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <ul class="descktop">
+                    <img src="assets/images/brain-code-icon.png" alt="brainIcon">
+                    <li><a href="#" id="header-text">HN</a></li>
+                    <li class="hideOnMobile"><a href="#">Home</a></li>
+                    <li class="hideOnMobile"><a href="#">About</a></li>
+                    <li class="hideOnMobile"><a href="#">Education</a></li>
+                    <li class="hideOnMobile"><a href="#">Portfolio</a></li>
+                    <li class="hideOnMobile"><a href="#">Clients</a></li>
+                    <li class="hideOnMobile"><a href="#">Contact</a></li>
+                    <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="64px" height="64px"><g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(8,8)"><path d="M4,7v2h24v-2zM4,15v2h24v-2zM4,23v2h24v-2z"></path></g></g></svg></a></li>
+                </ul>
+            </nav>
 
             <!--hero section-->
             <section id="hero">
@@ -67,6 +71,9 @@
                         I’m not adding motion just to spruce things up,<br>
                         but doing it in ways that.
                     </P>
+                    <p id="description2">
+                        Passionate about creating innovative and efficient software solutions.
+                    </p>
 
                     <div class="contactButtons">
                         <a href="#Portfolio"> <button id="btn-portfolio">Portfolio </button></a>
@@ -103,6 +110,17 @@
                         You can find what kind of tools I’m using for all my
                         developments down<br> below.......
                     </p>
+                    <h6 id="about2">My name is <span id="aboutName2">Himal Nimsara</span> As a passionate software
+                        engineering student,<br> I specialize in <span id="special-lang2">Java.</span>I believe
+                        in pushing myself to grow and improve as a developer
+                        and to be a well experienced <span id="se2">software engineer.</span><br>
+                        Whether you're interested in collaborating on a
+                        project or discussing the latest<br> trends in software
+                        engineering, I'm always up for a challenge and
+                        excited to connect with like-minded professionals.
+                        You can find what kind of tools I’m using for all my
+                        developments down<br> below.......
+                    </h6>
                     <a href=""><button id="see-gallery">See Gallery</button></a>
                     <img src="assets/images/gallery-button-icon.png" alt="galleryIcon" id="gallery-icon">
                 </div>
@@ -117,6 +135,24 @@
                         <div id="nav-education" aria-current="page" href="#">Education</div>
                         <div id="nav-experience" aria-current="page" href="#">Experience</div>
                         <div id="nav-assignments" aria-current="page" href="#">Assignments</div>
+                    </div>
+                </section>
+                <section class="mobile-header">
+                    <div class="mobile-experience">
+                        <img src="assets/images/icons/professional-skills-icon.png" alt="pro-skills-icon">
+                        <p>Profeesional Skills</p>
+                    </div>
+                    <div class="mobile-education">
+                        <img src="assets/images/icons/education-icon.png" alt="edu-icon">
+                        <p>Education</p>
+                    </div>
+                    <div class="mobile-experience">
+                        <img src="assets/images/icons/experience-icon.png" alt="experience-icn">
+                        <p>Experience</p>
+                    </div>
+                    <div class="mobile-assignments">
+                        <img src="assets/images/icons/assignment-icon.png" alt="assignment-icon">
+                        <p>Assignment</p>
                     </div>
                 </section>
 
