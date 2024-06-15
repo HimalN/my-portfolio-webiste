@@ -48,6 +48,8 @@ nav{
     background-color: #111017;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
     height: 50px;
+    z-index: 1;
+    position: relative;
 
 }
 nav ul{
@@ -220,6 +222,9 @@ a:hover{
     left: auto;
     margin: auto;
 
+}
+#my-image2{
+    display: none;
 }
 
 .homeTitles{
@@ -1481,6 +1486,9 @@ a:hover{
         left: 850px;
         margin: 0; 
     }
+    #my-image2{
+        display: none;
+    }
     #aboutTitles>p {
         text-align: justify;
         text-justify: inter-word;
@@ -1673,16 +1681,29 @@ a:hover{
 
 }
 @media all and (max-width: 400px){
+    .sidebar{
+        width: 40%;
+        right: 0px;
+    }
+    #hide-bar>a{
+        padding: 0;
+    }
+    .menu-button>a{
+        padding: 0;
+    }
     #hero {
         height: 460px;
     }
-    #myImage>img{
+    #myImage>#my-image1{
+        display: none;
+    }
+    #myImage>#my-image2{
         display: block;
         height: 300px;
-        width: 300px;
-        top: 80px;
-        left: 155px;
-        margin-bottom: 0;
+        width: 200px;
+        top: 159px;
+        left: 200px;
+        margin: 0;
     }
     .socialIcons {
         display: inline;
@@ -1735,7 +1756,6 @@ a:hover{
         color: #FFF;
         font-size: 20px;
         font-family: Cabin;
-
     }
     .contactButtons {
         height: 100px;
@@ -1763,6 +1783,9 @@ a:hover{
         margin: 0;
         height: 50px;
         width: 160px;
+    }
+    #aboutMe{
+        width: 400px;
     }
     #Aboutimage>img {
         height: 250px;
@@ -1812,7 +1835,7 @@ a:hover{
     .mobile-header{
         display: block;
         background-color: #0E0C16;
-        height: 60px;
+        height: 80px;
         width: 350px;
         border-radius: 15px 15px 15px 15px;
         position: relative;
@@ -1832,8 +1855,276 @@ a:hover{
         position: relative;
         top: 5px;
     }
+    .educationbottom{
+        width: 398px;
+        height: 900px;
+    }
+    .education{
+        height: 1000px;
+        width: 400px;
+    }
     .mobile-header>div>img{
         height: 30px;
         width: 30px;
+        position: relative;
+        left: 10px;
+        right: 0;
+        top: 10px;
+        bottom: 0;
     }
+    .mobile-header>div>p{
+        color: #FFF;
+        font-family: Cabin;
+        font-size: 13px;
+        position: relative;
+    }
+    #mobile-skill-t{
+        position: relative;
+        top: 8px;
+        left: 7px;
+    }
+    #mobile-education-t{
+        position: relative;
+        top: 8px;
+        right: 2px;
+    }
+    #mobile-experience-t{
+        position: relative;
+        top: 8px;
+        right: 5px;
+    }
+    #mobile-assignment-t{
+        position: relative;
+        top: 8px;
+        right: 7px;
+    }
+    .skill-sliders {
+        width: 350px;
+        display: grid;
+        grid-template-columns: 32vw;
+        position: relative;
+        top: 5px;
+        left: 30px;
+        right: 0;
+        gap: 0;
+    }
+    .item1{
+        width: 350px;
+    }
+    .item3 {
+        display: none;
+
+    }
+    .item2{
+        width: 350px;
+        top: 15px;
+        position: relative;
+    }
+    .developmentSkillIcons{
+        position: relative;
+        top: -380px;
+    }
+    .developmentSkillIcons>img {
+        top: 0;
+        left: 22px;
+    }
+    .designSkillIcons>img {
+        top: -30px;
+        left: +18px;
+    }
+    .Portfolio {
+        background-color: #191721;
+        width: 400px;
+        height: 1000px;
+    }
+    .portfolio-header>h3 {
+        width: 300px;
+        left: 50px;
+    }
+    .portfolio-header>hr {
+        width: 220px;
+        position: relative;
+        top: 10px;
+        left: 90px;
+        margin: 0;
+    }
+    .portfolio-header>p {
+        width: 350px;
+        top: 2px;
+        left: 20px;
+    }
+    .portfolioContent {
+        position: relative;
+        left: 0;
+        top: 15px;
+        column-count: 2;
+        width: 398px;
+    }
+    .card {
+        width: 140px;
+        height: 100px;
+    }
+    .clientHeader {
+        text-align: center;
+        top: 20PX;
+        position: relative;
+        width: 398px;
+    }
+    .clientSection{
+        display: block;
+        width: 398px;
+    }
+    .client-back {
+        top: 30px;
+        left: 60px;
+        margin-bottom: 20px;
+    }
+    .Clients{
+        height: 1500px;
+    }
+    .clientHeader>h3{
+        width: 395px;
+    }
+    .clientHeader>hr{
+
+    }
+    .rating-stars{
+        width: 100px;
+    }
+    .Contact{
+        height: 800px;
+    }
+    .contact-image, .contact-box{
+        display: none;
+    }
+    .box2{
+        display: block;
+        margin: 0;
+        padding: 0;
+        background-color: #0B0A12;
+        height: 660px;
+        width: 350px;
+        top: 30px;
+        position: relative;
+        left: 25px;
+        border-radius: 10% 10% 10% 10%;
+    }
+    #Name {
+        left: 20px;
+    }
+    #lbl-name {
+        left: 85px;
+    }
+    #phone {
+        top: 10px;
+        left: 75px;
+    }
+    #lbl-phone {
+        top: 20px;
+        left: -185px;
+    }
+    #email {
+        top: 40px;
+        left: 78px;
+    }
+    #lbl-email {
+        top: 49px;
+        left: -126px;
+    }
+    #subject {
+        top: 70px;
+        left: 79px;
+    }
+    #message {
+        top: 35px;
+        left: 30px;
+        width: 85%;
+        height: 200px;
+    }
+    #lbl-subject {
+        top: 77px;
+        left: -128px;
+    }
+    #lbl-message {
+        top: 106px;
+        left: -126px;
+    }
+    #message {
+        top: 100px;
+    }
+    .message-button {
+        top: 100px;
+    }
+    #send-msg {
+
+        height: 45px;
+        width: 200px;
+        top: 0;
+        left: 82px;
+    }
+    .message-button>img {
+        left: 20px;
+        top: 17px;
+    }
+    .bottom {
+        height: 555px;
+    }
+    .footer {
+        height: 555px;
+    }
+    .pages {
+        position: relative;
+        width: 200px;
+        left: -40px;
+        top: 220px;
+    }
+    .Categories {
+        position: absolute;
+        height: 200px;
+        top: 240px;
+        left: 200px;
+    }
+    .footer-right {
+        left: 41px;
+    }
+    .footerBottom {
+        top: 480px;
+    }
+    .footerBottom>#coppyright {
+        margin: 0;
+        top: 40px;
+        left: 14px;
+        width: 380px;
+    }
+    .footerBottom>hr {
+        width: 398px;
+        margin: 0;
+        top: 30px;
+    }
+    #social-up{
+        width: 398px;
+        margin: 0;
+        position: relative;
+        top: -40px;
+    }
+    .news-letter{
+        display: none;
+    }
+    .social-media-footer>a>img {
+        top: 22px;
+        left: 0px;
+        height: 48px;
+        width: 48px;
+    }
+    #facebook-footer {
+        height: 57px;
+        width: 57px;
+    }
+    .social-media-footer {
+        top: -45px;
+        left: 5px;
+    }
+
+
+
 }

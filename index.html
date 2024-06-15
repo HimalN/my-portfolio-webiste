@@ -18,7 +18,7 @@
             <!--Navigation bar-->
             <nav>
                 <ul class="sidebar">
-                    <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="64px" height="64px"><g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(8,8)"><path d="M7.21875,5.78125l-1.4375,1.4375l8.78125,8.78125l-8.78125,8.78125l1.4375,1.4375l8.78125,-8.78125l8.78125,8.78125l1.4375,-1.4375l-8.78125,-8.78125l8.78125,-8.78125l-1.4375,-1.4375l-8.78125,8.78125z"></path></g></g></svg></a></li>
+                    <li onclick=hideSidebar() id="hide-bar"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="64px" height="64px"><g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(8,8)"><path d="M7.21875,5.78125l-1.4375,1.4375l8.78125,8.78125l-8.78125,8.78125l1.4375,1.4375l8.78125,-8.78125l8.78125,8.78125l1.4375,-1.4375l-8.78125,-8.78125l8.78125,-8.78125l-1.4375,-1.4375l-8.78125,8.78125z"></path></g></g></svg></a></li>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Education</a></li>
@@ -85,7 +85,8 @@
 
                 <!--Right Side-->
                 <div id="myImage">
-                    <img src="assets/images/my-image.png" alt="myImage" >
+                    <img src="assets/images/my-image.png" alt="myImage" id="my-image1">
+                    <img src="assets/images/my-img2.png" alt="myImage" id="my-image2">
                 </div>
             </section>
 
@@ -140,19 +141,19 @@
                 <section class="mobile-header">
                     <div class="mobile-experience">
                         <img src="assets/images/icons/professional-skills-icon.png" alt="pro-skills-icon">
-                        <p>Profeesional Skills</p>
+                        <p id="mobile-skill-t">Skills</p>
                     </div>
                     <div class="mobile-education">
                         <img src="assets/images/icons/education-icon.png" alt="edu-icon">
-                        <p>Education</p>
+                        <p id="mobile-education-t">Education</p>
                     </div>
                     <div class="mobile-experience">
                         <img src="assets/images/icons/experience-icon.png" alt="experience-icn">
-                        <p>Experience</p>
+                        <p id="mobile-experience-t">Experience</p>
                     </div>
                     <div class="mobile-assignments">
                         <img src="assets/images/icons/assignment-icon.png" alt="assignment-icon">
-                        <p>Assignment</p>
+                        <p id="mobile-assignment-t">Assignment</p>
                     </div>
                 </section>
 
@@ -595,7 +596,7 @@
                 <h3>Contact Me</h3>
                 <hr>
                 <div class="contact-body">
-                    <div class="contact-form contact-box">
+                    <div class="contact-form contact-box box2">
                         <div class="contactForm">
                             <div class="contactText">
                                 <h4>Don't be a Stranger. Contact us now.</h4>
@@ -624,7 +625,7 @@
                         </div>
                     </div>
 
-                    <div class="contact-image, contact-box">
+                    <div class="contact-image, contact-box ">
 
                          <div class="contact-image-right">
                              <img src="assets/images/Call%20center-cuate.png" alt="callCenter" width="50%" height="50%">
@@ -686,6 +687,7 @@
                     </div>
 
                     <div class="footerBottom">
+                        <hr id="social-up">
                         <hr>
                         <p id="coppyright">© 2024 All rights reserved by Himal Nimsara</p>
 
