@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orders</title>
+    <link rel="stylesheet" href="assets/css/home-page.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        body{
+            background-color: #D6DAC8;
+        }
+        .navbar{
+            background-color: #9CAFAA;
+            font-weight: bold;
+            font-family: "Arial";
+
+        }
+        .nav-link:hover{
+            cursor: pointer;
+            color: #fcfcfc;
+
+        }
+        .custom-nav-link{
+            text-decoration: none;
+            border: solid black 1px;
+            border-radius: 20px;
+            padding: 10px;
+            background-color: #D6DAC8 ;
+        }
+        .custom-nav-link:hover {
+            background-color: #9CAFAA;
+        }
+        .form-side{
+            width: 25vw;
+
+            position: absolute;
+            top: 100px;
+            bottom: 0;
+            left: 10px;
+            right: 0;
+        }
+        .form-2{
+            width: 25vw;
+
+            position: absolute;
+            left: 350px;
+            right: 0;
+            top: 100px;
+        }
+        .form-3{
+            width: 25vw;
+
+            position: absolute;
+            left: 350px;
+            right: 0;
+            top: 50px;
+        }
+        .custom-table{
+            width: 100vw;
+            position: absolute;
+            margin: auto;
+            border: 4px solid black;
+            border-radius: 10px;
+
+            top: 500px;
+            left: 0;
+            right: 0;
+        }
+    </style>
+
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg " >
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">POS</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="dashboard.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="customer.html">Customer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="products.html">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="orders.html">Orders</a>
+                </li>
+            </ul>
+            <span class="navbar-text">
+                <a class="custom-nav-link" href="\index.html">LogOut</a>
+            </span>
+        </div>
+    </div>
+</nav>
+<main>
+    <div class="form-one">
+        <div class="form-side">
+            <div class="card contact">
+                <div class="card-header">
+                    Customer Details
+                </div>
+                <div class="card-body">
+                    <form>
+                        <form class="row g-3">
+                            <div class="col-md-12">
+                                <label for="inputCId" class="form-label">Customer</label>
+                                <input type="text" class="form-control" id="inputCId">
+                            </div>
+                            <div class="col-md-12">
+                                <label for="inputName" class="form-label">Name</label>
+                                <input type="email" class="form-control" id="inputName">
+                            </div>
+                            <div class="col-12">
+                                <label for="inputAddress" class="form-label">Address</label>
+                                <input type="text" class="form-control" id="inputAddress">
+                            </div>
+                            <div class="col-12">
+                                <label for="inputTp" class="form-label">Telephone</label>
+                                <input type="text" class="form-control" id="inputTp">
+                            </div>
+                        </form>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="form-two">
+        <div class="form-2">
+            <div class="card contact">
+                <div class="card-header">
+                    Item Details
+                </div>
+                <div class="card-body">
+                    <form>
+                        <form class="row g-3">
+                            <div class="col-md-12">
+                                <label for="inputiId" class="form-label">Item</label>
+                                <input type="text" class="form-control" id="inputiId">
+                            </div>
+                            <div class="col-md-12">
+                                <label for="inputiName" class="form-label">Item Name</label>
+                                <input type="email" class="form-control" id="inputiName">
+                            </div>
+                            <div class="col-12">
+                                <label for="inputQty" class="form-label">QTY</label>
+                                <input type="text" class="form-control" id="inputQty">
+                            </div>
+                            <div class="col-12">
+                                <label for="inputprice" class="form-label">Price</label>
+                                <input type="text" class="form-control" id="inputprice">
+                            </div>
+                        </form>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="form-3">
+        <div class="form-3">
+            <div class="card contact">
+                <div class="card-header">
+                    Order Details
+                </div>
+                <div class="card-body">
+                    <form>
+                        <form class="row g-3">
+                            <div class="col-md-12">
+                                <label for="inputOrderId" class="form-label">Order Id:</label>
+                                <input type="text" class="form-control" id="inputOrderId">
+                            </div>
+                            <div class="col-md-12">
+                                <label for="inputODate" class="form-label">Date:</label>
+                                <input type="email" class="form-control" id="inputODate">
+                            </div>
+                            <div class="col-12">
+                                <label for="inputSearch" class="form-label">Search:</label>
+                                <input type="text" class="form-control" id="inputSearch">
+                            </div>
+                            <br>
+                            <div class="col-12 subbmit-buttons">
+                                <button type="clear" class="btn btn-secondary">Clear</button>
+                                <button type="delete" class="btn btn-danger">Delete</button>
+                                <button type="update" class="btn btn-warning">Update</button>
+                                <button type="submit" class="btn btn-primary">Save</button>
+                            </div>
+                        </form>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="order-detail-table">
+        <table class="custom-table table table-bordered">
+            <thead>
+            <tr>
+                <th scope="col">Order Id</th>
+                <th scope="col">Date</th>
+
+                <th scope="col">Customer ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">Address</th>
+                <th scope="col">Tp</th>
+
+                <th scope="col">Item ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">Qty</th>
+                <th scope="col">Price</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                <td>@mdo</td>
+                <td>@mdo</td>
+                <td>@mdo</td>
+                <td>@mdo</td>
+                <td>@mdo</td>
+                <td>@mdo</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+                <td>@fat</td>
+                <td>@fat</td>
+                <td>@fat</td>
+                <td>@fat</td>
+                <td>@fat</td>
+                <td>@fat</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+                <td>@fat</td>
+                <td>@fat</td>
+                <td>@fat</td>
+                <td>@fat</td>
+                <td>@fat</td>
+                <td>@fat</td>
+            </tr>
+            <tr>
+                <th scope="row">4</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+                <td>@fat</td>
+                <td>@fat</td>
+                <td>@fat</td>
+                <td>@fat</td>
+                <td>@fat</td>
+                <td>@fat</td>
+            </tr>
+            <tr>
+                <th scope="row">5</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+                <td>@fat</td>
+                <td>@fat</td>
+                <td>@fat</td>
+                <td>@fat</td>
+                <td>@fat</td>
+                <td>@fat</td>
+            </tr>
+            <tr>
+                <th scope="row">6</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+                <td>@fat</td>
+                <td>@fat</td>
+                <td>@fat</td>
+                <td>@fat</td>
+                <td>@fat</td>
+                <td>@fat</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

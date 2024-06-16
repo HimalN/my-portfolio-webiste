@@ -1,0 +1,25 @@
+>Requrements & Goals
+
+Goal: This portfolio is a bit of myself and by skills in my software engineering career. You can find my skills,
+experiences, and my projects through this portfolio. This portfolio is intended for potential
+employers, clients, and collaborators who are interested in hiring me or working with me. This
+portfolio is made to showcase my best work. If you have any questions,
+feedback, or inquiries, please feel free to contact me.
+
+>Who you are?
+	* My name is Himal Nimsara Perera. I'm a software engineering student from Sri Lanka, currently pursuing a degree in computer science. I am 19 years old.
+
+>What streams you prefer
+	* I most like full-stack web development and designing websites.
+
+>Education Details
+	*G.C.E O/L Passed
+	*Following HND in Software Engineering
+	*Following GDSE in Ijse
+
+
+> Site Map: https://www.gloomaps.com/EKolJixwhz
+
+> Wire Frame: https://drive.google.com/file/d/12T-DBINLGs8jUnJcZ_k_4Yeu4iodGszj/view?usp=sharing
+
+> Mockup: https://www.figma.com/file/hmfvsDG6KknabZy32mwMsu/Himal-Nimsara-%7C-Portfolio?type=design&node-id=0%3A1&mode=design&t=brPqt0EuJQFaosvX-1

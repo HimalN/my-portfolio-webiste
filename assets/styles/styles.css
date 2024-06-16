@@ -848,6 +848,23 @@ a:hover{
     color: #FF4853;
     font-family: Inder;
     font-size: 20px;
+}
+.assignment-square>a{
+    position: relative;
+    top: -55px;
+}
+.assignment-square>a>img{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: -10px;
+    margin-right: 10px;
+    opacity:0;
+}
+.assignment-square:hover img{
+    opacity: 1;
+    transition: ease-in-out 0.2s ;
+    cursor: pointer;
 
 }
 .assignment-square:hover{

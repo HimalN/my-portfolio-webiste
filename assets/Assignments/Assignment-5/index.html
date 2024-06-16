@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+    <head>
+     <title>Himal Perera | Portfolio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="My Portfolio">
+        <meta name="keywords" content="Himal Nimsara Student of IJSE,learning to be a software engineer">
+        <meta name="author" content="Himal Nimsara">
+        <link rel="stylesheet" href="assets/styles/normalize.css">
+        <link rel="stylesheet" href="assets/styles/styles.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="icon" type="image/x-icon" href="assets/images/site-icon.png">
+    </head>
+    <body>
+        <article class="scroller">
+            <!--Navigation bar-->
+            <nav>
+                <ul class="sidebar">
+                    <li onclick=hideSidebar() id="hide-bar"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="64px" height="64px"><g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(8,8)"><path d="M7.21875,5.78125l-1.4375,1.4375l8.78125,8.78125l-8.78125,8.78125l1.4375,1.4375l8.78125,-8.78125l8.78125,8.78125l1.4375,-1.4375l-8.78125,-8.78125l8.78125,-8.78125l-1.4375,-1.4375l-8.78125,8.78125z"></path></g></g></svg></a></li>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#aboutMe">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#Clients">Clients</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+                <ul class="descktop">
+                    <img src="assets/images/brain-code-icon.png" alt="brainIcon">
+                    <li><a href="#" id="header-text">HN</a></li>
+                    <li class="hideOnMobile"><a href="#hero">Home</a></li>
+                    <li class="hideOnMobile"><a href="#aboutMe">About</a></li>
+                    <li class="hideOnMobile"><a href="#education">Education</a></li>
+                    <li class="hideOnMobile"><a href="#Portfolio">Portfolio</a></li>
+                    <li class="hideOnMobile"><a href="#Clients">Clients</a></li>
+                    <li class="hideOnMobile"><a href="#Contact">Contact</a></li>
+                    <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="64px" height="64px"><g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(8,8)"><path d="M4,7v2h24v-2zM4,15v2h24v-2zM4,23v2h24v-2z"></path></g></g></svg></a></li>
+                </ul>
+            </nav>
+
+            <!--hero section-->
+            <section id="hero">
+                <div class="socialIcons">
+                    <a href="https://web.facebook.com/himal.nimsara.18" id="fb">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="50px" height="50px"><g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M25,3c-12.13844,0 -22,9.86156 -22,22c0,11.01913 8.12753,20.13835 18.71289,21.72852l1.14844,0.17383v-17.33594h-5.19727v-3.51953h5.19727v-4.67383c0,-2.87808 0.69065,-4.77363 1.83398,-5.96289c1.14334,-1.18926 2.83269,-1.78906 5.18359,-1.78906c1.87981,0 2.61112,0.1139 3.30664,0.19922v2.88086h-2.44727c-1.38858,0 -2.52783,0.77473 -3.11914,1.80664c-0.59131,1.03191 -0.77539,2.264 -0.77539,3.51953v4.01758h6.12305l-0.54492,3.51953h-5.57812v17.36523l1.13477,-0.1543c10.73582,-1.45602 19.02148,-10.64855 19.02148,-21.77539c0,-12.13844 -9.86156,-22 -22,-22zM25,5c11.05756,0 20,8.94244 20,20c0,9.72979 -6.9642,17.7318 -16.15625,19.5332v-12.96875h5.29297l1.16211,-7.51953h-6.45508v-2.01758c0,-1.03747 0.18982,-1.96705 0.50977,-2.52539c0.31994,-0.55834 0.62835,-0.80078 1.38477,-0.80078h4.44727v-6.69141l-0.86719,-0.11719c-0.59979,-0.08116 -1.96916,-0.27148 -4.43945,-0.27148c-2.7031,0 -5.02334,0.73635 -6.625,2.40234c-1.60166,1.66599 -2.39258,4.14669 -2.39258,7.34961v2.67383h-5.19727v7.51953h5.19727v12.9043c-9.04433,-1.91589 -15.86133,-9.84626 -15.86133,-19.4707c0,-11.05756 8.94244,-20 20,-20z"></path></g></g></svg>
+                    </a>
+                    <a href="https://wa.me/+94726815648"><img src="assets/images/whatsapp-icon.svg" alt="whatsapp"></a>
+                    <a href="https://www.instagram.com/himal_nimsara_?igsh=eGZzbHA4bHd0MXA="><img src="assets/images/insta-icon.svg" alt="insta"></a>
+                    <a href="https://x.com/HimalNimsara"><img src="assets/images/twitter-icon.svg" alt="twitter"></a>
+                    <a href="https://www.linkedin.com/in/himal-nimsara?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="assets/images/in-icon.svg" alt="linkdin"></a>
+                </div>
+                <div class="homeTitles">
+                    <p id="welcomeTitle">Welcome to my world</p>
+
+                    <div id="mainTitle">
+                        <h3>Hi,I'm Himal Nimsara<br> a <div class="words">
+                            <span>professional coder.</span>
+                            <span>Web Developer.</span>
+                            <span>Full Stack Developer.</span>
+                            <span>ICT Tutor.</span>
+                            <span>professional coder.</span>
+                            <!--<span id="custom-pro">professional coder.</span>-->
+                        </div>
+                        </h3>
+                    </div>
+
+                    <P id="description">I use animation as a third dimension by<br>
+                        which to simplify experiences and kuiding<br>
+                        thro each and every interaction.<br>
+                        I’m not adding motion just to spruce things up,<br>
+                        but doing it in ways that.
+                    </P>
+                    <p id="description2">
+                        Passionate about creating innovative & efficient software solutions.
+                    </p>
+
+                    <div class="contactButtons">
+                        <a href="#Portfolio"> <button id="btn-portfolio">Portfolio </button></a>
+                        <img src="assets/images/id-icon.png" alt="idIcon" id="idIcon">
+                        <a href="#Contact"> <button id="btn-contact">Contact </button></a>
+                        <img src="assets/images/phone-icon.png" alt="phoneIcon" id="phoneIcon">
+                    </div>
+                </div>
+
+                <!--Right Side-->
+                <div id="myImage">
+                    <img src="assets/images/my-image.png" alt="myImage" id="my-image1">
+                    <img src="assets/images/my-img2.png" alt="myImage" id="my-image2">
+                </div>
+            </section>
+
+
+            <!--About me-->
+            <section id="aboutMe">
+                <!--left side-->
+                <div id="Aboutimage">
+                    <img src="assets/images/myimg.jpg" alt="myImage">
+                </div>
+                <!--Right Side-->
+                <div id="aboutTitles">
+                    <h2>About Me</h2>
+                    <p>My name is <span id="aboutName">Himal Nimsara</span> As a passionate software
+                        engineering student,<br> I specialize in <span id="special-lang">Java.</span>I believe
+                        in pushing myself to grow and<br> improve as a developer
+                        and to be a well experienced <span id="se">software engineer.</span><br>
+                        Whether you're interested in collaborating on a
+                        project or discussing the latest<br> trends in software
+                        engineering, I'm always up for a challenge and<br>
+                        excited to connect with like-minded professionals.<br>
+                        You can find what kind of tools I’m using for all my
+                        developments down<br> below.......
+                    </p>
+                    <h6 id="about2">My name is <span id="aboutName2">Himal Nimsara</span> As a passionate software
+                        engineering student,<br> I specialize in <span id="special-lang2">Java.</span>I believe
+                        in pushing myself to grow and improve as a developer
+                        and to be a well experienced <span id="se2">software engineer.</span><br>
+                        Whether you're interested in collaborating on a
+                        project or discussing the latest<br> trends in software
+                        engineering, I'm always up for a challenge and
+                        excited to connect with like-minded professionals.
+                        You can find what kind of tools I’m using for all my
+                        developments down<br> below.......
+                    </h6>
+                    <a href=""><button id="see-gallery">See Gallery</button></a>
+                    <img src="assets/images/gallery-button-icon.png" alt="galleryIcon" id="gallery-icon">
+                </div>
+            </section>
+
+            <!--Education and skills section-->
+            <section class="education" id="education">
+                <!--education section header-->
+                <section class="education-header">
+                    <div class="edu-links">
+                        <div id="nav-skills" aria-current="page" href="#">Professional Skills</div>
+                        <div id="nav-education" aria-current="page" href="#">Education</div>
+                        <div id="nav-experience" aria-current="page" href="#">Experience</div>
+                        <div id="nav-assignments" aria-current="page" href="#">Assignments</div>
+                    </div>
+                </section>
+                <section class="mobile-header">
+                    <div class="mobile-skills" id="mobile-skills">
+                        <img src="assets/images/icons/professional-skills-icon.png" alt="pro-skills-icon">
+                        <p id="mobile-skill-t">Skills</p>
+                    </div>
+                    <div class="mobile-education" id="mobile-education">
+                        <img src="assets/images/icons/education-icon.png" alt="edu-icon">
+                        <p id="mobile-education-t">Education</p>
+                    </div>
+                    <div class="mobile-experience" id="mobile-experience">
+                        <img src="assets/images/icons/experience-icon.png" alt="experience-icn">
+                        <p id="mobile-experience-t">Experience</p>
+                    </div>
+                    <div class="mobile-assignments" id="mobile-assignments">
+                        <img src="assets/images/icons/assignment-icon.png" alt="assignment-icon">
+                        <p id="mobile-assignment-t">Assignment</p>
+                    </div>
+                </section>
+
+                <!--education body section-->
+                <section class="educationbottom">
+                    <!--professional skills section-->
+                    <section class="professionalskills">
+
+                        <div class="skill-sliders">
+                            <div class="item1">
+                                <div class="developmentSkill">
+                                    <p>Features</p>
+                                    <h3>Developmemt Skills</h3>
+                                    <!--Skill Sliders-->
+                                    <div class="skill-container">
+                                        <div class="skill-box">
+                                            <span class="title">HTML</span>
+                                            <div class="skill-bar">
+                                                <span class="skill-per skill-per-html">
+                                                    <span class="tool-tip">90%</span>
+                                                </span>
+                                            </div>
+
+                                            <span class="title">CSS</span>
+                                            <div class="skill-bar">
+                                                <span class="skill-per skill-per-css">
+                                                    <span class="tool-tip">85%</span>
+                                                </span>
+                                            </div>
+
+                                            <span class="title">Java Script</span>
+                                            <div class="skill-bar">
+                                                <span class="skill-per skill-per-js">
+                                                    <span class="tool-tip">85%</span>
+                                                </span>
+                                            </div>
+
+                                            <span class="title">Software</span>
+                                            <div class="skill-bar">
+                                                <span class="skill-per skill-per-software">
+                                                    <span class="tool-tip">80%</span>
+                                                </span>
+                                            </div>
+
+                                            <span class="title">Plugin</span>
+                                            <div class="skill-bar">
+                                                <span class="skill-per skill-per-plugin">
+                                                    <span class="tool-tip">75%</span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item2">
+                                <div class="designSkills">
+                                    <p>Features</p>
+                                    <h3>Design Skills</h3>
+
+                                    <!--Skill Sliders-->
+                                    <div class="skill-box">
+                                        <span class="title">Figma</span>
+                                        <div class="skill-bar">
+                                            <span class="skill-per skill-per-figma ">
+                                                <span class="tool-tip">90%</span>
+                                             </span>
+                                        </div>
+
+                                        <span class="title">Adobe XD</span>
+                                        <div class="skill-bar">
+                                            <span class="skill-per skill-per-xd">
+                                                <span class="tool-tip">60%</span>
+                                            </span>
+                                        </div>
+
+                                        <span class="title">Photoshop</span>
+                                        <div class="skill-bar">
+                                            <span class="skill-per skill-per-ps">
+                                                <span class="tool-tip">95%</span>
+                                             </span>
+                                        </div>
+
+                                        <span class="title">Adobe Illustratot</span>
+                                        <div class="skill-bar">
+                                            <span class="skill-per skill-per-ail">
+                                                <span class="tool-tip">45%</span>
+                                            </span>
+                                        </div>
+
+                                        <span class="title">Design</span>
+                                        <div class="skill-bar">
+                                            <span class="skill-per skill-per-design">
+                                                <span class="tool-tip">98%</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item3">
+                                <div id="professionalskillsimage">
+                                    <img src="assets/images/Programmer-bro.png" alt="professionalSkillsImage" id="skill-image">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills-icon">
+                            <div class="developmentSkillIcons">
+                                <img src="assets/images/html-icon.png" alt="html">
+                                <img src="assets/images/css-logo.png" alt="csss">
+                                <img src="assets/images/javascript_logo.png" alt="js">
+                                <img src="assets/images/icons8-software-96.png" alt="software">
+                                <img src="assets/images/extention-icon.png" alt="plugin">
+                            </div>
+
+                            <div class="designSkillIcons">
+                                <img src="assets/images/figma-icon.png" alt="figmaLogo">
+                                <img src="assets/images/xd-logo.png" alt="xdLogo">
+                                <img src="assets/images/ps-logo.png" alt="psLogo">
+                                <img src="assets/images/illustrator-icon.png" alt="aiLogo">
+                                <img src="assets/images/icons8-design-96.png" alt="designLogo">
+                            </div>
+                        </div>
+
+                    </section>
+
+                    <!--Education Qualification section-->
+                    <section class='education-qualification'>
+                        <!--<div class="education-q-eader">
+                            <h3>Education</h3>
+                            <hr>
+                            <p>Qualifications I Have</p>
+                        </div>-->
+
+                        <div class="edu-qualification-body">
+
+                            <div>
+                                <h5>Introdction to cyber<br>Security</h5>
+                                <hr>
+                                <p>It is a long established fact that a reader will be distracted by the readable
+                                    content of a page when looking at its layout. The point of  publishing packages and
+                                    web page editors now
+                                </p>
+                            </div>
+
+                            <div>
+                                <h5>Cyber Essentials</h5>
+                                <hr>
+                                <p>It is a long established fact that a reader will be distracted by the readable
+                                    content of a page when looking at its layout. The point of  publishing packages and
+                                    web page editors now
+                                </p>
+                            </div>
+
+                            <div>
+                                <h5>Certificate in I.C.T</h5>
+                                <hr>
+                                <p>It is a long established fact that a reader will be distracted by the readable
+                                    content of a page when looking at its layout. The point of  publishing packages and
+                                    web page editors now
+                                </p>
+                            </div>
+
+                            <div>
+                                <h5>Diploma in I.C.T</h5>
+                                <hr>
+                                <p>It is a long established fact that a reader will be distracted by the readable
+                                    content of a page when looking at its layout. The point of  publishing packages and
+                                    web page editors now
+                                </p>
+                            </div>
+
+                            <div>
+                                <h5>HND in Software Engineering</h5>
+                                <hr>
+                                <p>It is a long established fact that a reader will be distracted by the readable
+                                    content of a page when looking at its layout. The point of  publishing packages and
+                                    web page editors now
+                                </p>
+                            </div>
+
+                            <div>
+                                <h5>GDSE in Software Engineering</h5>
+                                <hr>
+                                <p>It is a long established fact that a reader will be distracted by the readable
+                                    content of a page when looking at its layout. The point of  publishing packages and
+                                    web page editors now
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="uniImages">
+                            <img src="assets/images/cisco-emblem.jpg" alt="cisco Logo" id="cisco">
+                            <img src="assets/images/ESOFT_Logo_1000_x_450_RGB.jpg" alt="esoft Logo" id="esoft">
+                            <img src="assets/images/download.png" alt="Ijse Logo" id="ijse">
+                        </div>
+                    </section>
+
+                    <!--Experience Section-->
+                    <section class="experieenc">
+                        <div class="experience-body">
+                            <div class="left-side">
+                                <div class="experience-effect">
+                                    <div class="experience-tree">
+
+                                        <div id="main-line"></div>
+
+                                        <div id="sub-line-1" class="sub-line"></div>
+                                        <div id="sub-line-2" class="sub-line"></div>
+                                        <div id="sub-line-3" class="sub-line"></div>
+                                        <div id="sub-line-4" class="sub-line"></div>
+                                        <div id="sub-line-5" class="sub-line"></div>
+
+                                        <div id="circle-1" class="circle"></div>
+                                        <div id="circle-2" class="circle"></div>
+                                        <div id="circle-3" class="circle"></div>
+                                        <div id="circle-4" class="circle"></div>
+                                        <div id="circle-5" class="circle"></div>
+
+                                        <div id="experience-box-1" class="experience-box"></div>
+                                        <div id="experience-box-2" class="experience-box"></div>
+                                        <div id="experience-box-3" class="experience-box"></div>
+                                        <div id="experience-box-4" class="experience-box"></div>
+                                        <div id="experience-box-5" class="experience-box"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="right side">
+                                <div id="ex-image-back"></div>
+                                <img src="assets/images/experience.png" id="experience-image">
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <!--Assignment Section-->
+                    <section class="assignments">
+                        <div class="assignmentSquare">
+
+                            <div class="assignment-square">
+                                <p>Assignment 1</p>
+                            </div>
+
+                            <div class="assignment-square">
+                                <p>Assignment 2</p>
+                            </div>
+
+                            <div class="assignment-square">
+                                <p>Assignment 3</p>
+                            </div>
+                            <div class="assignment-square">
+                                <p>Assignment 4</p>
+                            </div>
+                            <div class="assignment-square">
+                                <p>Assignment 4</p>
+                            </div>
+                            <div class="assignment-square">
+                                <p>Assignment 5</p>
+                            </div>
+                            <div class="assignment-square">
+                                <p>Assignment 6</p>
+                            </div>
+                            <div class="assignment-square">
+                                <p>Assignment 7</p>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+            </section>
+
+            <!--Portfolio section-->
+            <section class="Portfolio" id="Portfolio">
+                <div class="portfolio-header">
+                    <h3>My Portfolio</h3>
+                    <hr>
+                    <p>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</p>
+                </div>
+
+                <div class="portfolioContent">
+
+                    <div class="card">
+                        <img src="" alt="card-1">
+                        <div class="info">
+                            <h1>Stock Management System</h1>
+                            <p>CLI Based IJSE Stock Management System</p>
+                            <a href="#" class="btn">View Project</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="" alt="card-2">
+                        <div class="info">
+                            <h1>Stuido Management System</h1>
+                            <p>Studio management system for shadow studio</p>
+                            <a href="#" class="btn">View Project</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="" alt="card-3">
+                        <div class="info">
+                            <h1>Library Management System</h1>
+                            <p>Book worm library management system</p>
+                            <a href="#" class="btn">View Project</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="" alt="card-4">
+                        <div class="info">
+                            <h1>Point of Sale System</h1>
+                            <p>Web POS system for Nadeeka Stores</p>
+                            <a href="#" class="btn">View Project</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="" alt="card-5">
+                        <div class="info">
+                            <h1>Chat Application Java</h1>
+                            <p>Rio chat Sri Lankan chat application</p>
+                            <a href="#" class="btn">View Project</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="" alt="card-6">
+                        <div class="info">
+                            <h1>My Portfolio</h1>
+                            <p>My Portfolio</p>
+                            <a href="#" class="btn">View Project</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="" alt="card-7">
+                        <div class="info">
+                            <h1>Elephant Pass</h1>
+                            <p>Elephant management system</p>
+                            <a href="#" class="btn">View Project</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="" alt="card-8">
+                        <div class="info">
+                            <h1>Ehephant Pass Ui</h1>
+                            <p>Elephant Management system UI</p>
+                            <a href="#" class="btn">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Clients Section-->
+            <section class="Clients" id="Clients">
+                <div class="clientHeader">
+                    <h3>My Clients</h3>
+                    <hr>
+                    <p>Popular Clients</p>
+                </div>
+
+                <div class="clientSection">
+
+                    <div class="client-back">
+                        <img src="assets/images/sample-person-boy.png" alt="person1" class="client-profilepic">
+                        <h5>Matthew S. Curtiss</h5>
+                        <p>
+                            " Lorem Ipsu is simply dummy text of the printing and typesetting industry.
+                            It has survived not only five centuries "
+                        </p>
+
+                        <div class="rating-stars">
+                            <img src="assets/images/filled-yellow-star.png" alt="star" class="client-profilepic">
+                            <img src="assets/images/filled-yellow-star.png" alt="star">
+                            <img src="assets/images/filled-yellow-star.png" alt="star">
+                            <img src="assets/images/filled-yellow-star.png" alt="star">
+                            <img src="assets/images/yellow-star.png" alt="star">
+                        </div>
+                    </div>
+
+                    <div class="client-back">
+                        <img src="assets/images/sample-person-curly-hair-girl.png" alt="person1" class="client-profilepic">
+                        <h5>Amy K. Cole</h5>
+                        <p>
+                            " Lorem Ipsu is simply dummy text of the printing and typesetting industry.
+                            It has survived not only five centuries "
+                        </p>
+
+                        <div class="rating-stars">
+                            <img src="assets/images/filled-yellow-star.png" alt="star">
+                            <img src="assets/images/filled-yellow-star.png" alt="star">
+                            <img src="assets/images/filled-yellow-star.png" alt="star">
+                            <img src="assets/images/filled-yellow-star.png" alt="star">
+                            <img src="assets/images/yellow-star.png" alt="star">
+                        </div>
+
+                    </div>
+
+                    <div class="client-back">
+                        <img src="assets/images/sample-person-boy2.png" alt="person1" class="client-profilepic">
+                        <h5>Donald D. Boucher</h5>
+                        <p>
+                            " Lorem Ipsu is simply dummy text of the printing and typesetting industry.
+                            It has survived not only five centuries "
+                        </p>
+
+                        <div class="rating-stars">
+                            <img src="assets/images/filled-yellow-star.png" alt="star">
+                            <img src="assets/images/filled-yellow-star.png" alt="star">
+                            <img src="assets/images/filled-yellow-star.png" alt="star">
+                            <img src="assets/images/filled-yellow-star.png" alt="star">
+                            <img src="assets/images/yellow-star.png" alt="star">
+                        </div>
+                    </div>
+
+                    <div class="client-back">
+                        <img src="assets/images/sample-person-girl.png" alt="person1" class="client-profilepic">
+                        <h5>Terrie D. Nguyen</h5>
+                        <p>
+                            " Lorem Ipsu is simply dummy text of the printing and typesetting industry.
+                            It has survived not only five centuries "
+                        </p>
+
+                        <div class="rating-stars">
+                            <img src="assets/images/filled-yellow-star.png" alt="star">
+                            <img src="assets/images/filled-yellow-star.png" alt="star">
+                            <img src="assets/images/filled-yellow-star.png" alt="star">
+                            <img src="assets/images/filled-yellow-star.png" alt="star">
+                            <img src="assets/images/yellow-star.png" alt="star">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Contact Section-->
+            <section class="Contact" id="Contact">
+                <h3>Contact Me</h3>
+                <hr>
+                <div class="contact-body">
+                    <div class="contact-form contact-box box2">
+                        <div class="contactForm">
+                            <div class="contactText">
+                                <h4>Don't be a Stranger. Contact us now.</h4>
+                            </div>
+                            <form>
+                                <label for="Name" id="lbl-name" class="labelNames">Name</label>
+                                <input type="text" id="Name" placeholder="Enter your name">
+
+                                <label for="phone" id="lbl-phone" class="labelNames">Phone</label>
+                                <input type="text" id="phone" placeholder="Enter your phone">
+
+                                <label for="email" id="lbl-email" class="labelNames">Email</label>
+                                <input type="email" id="email" placeholder="example@gmail.com">
+
+                                <label for="subject" id="lbl-subject" class="labelNames">Subject</label>
+                                <input type="text" id="subject" placeholder="Subject">
+
+                                <label for="message" id="lbl-message" class="labelNames">Message</label>
+                                <input type="text" id="message" placeholder="Message">
+                            </form>
+                        </div>
+
+                        <div class="message-button">
+                            <button id="send-msg">Send Message </button>
+                            <img src="assets/images/mail-icon.png" alt="mainIcon">
+                        </div>
+                    </div>
+
+                    <div class="contact-image, contact-box ">
+
+                         <div class="contact-image-right">
+                             <img src="assets/images/Call%20center-cuate.png" alt="callCenter" width="50%" height="50%">
+                         </div>
+
+                         <div class="contactSocial">
+                             <a href="https://www.linkedin.com/in/himal-nimsara?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="assets/images/in-icon.png.png" alt="linkdin"></a>
+                             <a href="himalnimsara888@gmail.com"><img src="assets/images/gmail-icon.png" alt="gmail"></a>
+                             <a href="https://wa.me/+94726815648"><img src="assets/images/whatsapp-icon.png.png" alt="whatsapp">
+                             <a href="https://t.me/himalnimsara"><img src="assets/images/image-telegram-icon.png" alt="telegram"></a></a>
+                             <a href="https://web.facebook.com/himal.nimsara.18"><img src="assets/images/icons8-facebook-48.png" alt="facebook"></a>
+                             <a href="https://x.com/HimalNimsara"><img src="assets/images/twitter-icon.png.png" alt="twitter"></a>
+                         </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="bottom">
+                <section class="footer">
+                    <div class="pages">
+                        <h3>Pages</h3>
+                        <a href="#header-things">Home</a>
+                        <a href="#aboutMe">About</a>
+                        <a href="#education">Education</a>
+                        <a href="#Portfolio">Portfolio</a>
+                        <a href="#Clients">Clients</a>
+                        <a href="#Contact">Contact</a>
+                    </div>
+                    <div class="Categories">
+                        <h3>Categories</h3>
+                        <a href="#professionalskills">Professional Skills</a>
+                        <a href="#Education1">Education</a>
+                        <a href="#experience">Experience</a>
+                        <a href="#assignments">Assignments</a>
+                    </div>
+
+                    <div class="news-letter">
+                        <form>
+                            <label for="news-email1" id="sub-id">Subscribe to News Letter</label>
+                            <br>
+                            <input type="email" id="news-email1" placeholder="Email">
+                        </form>
+                        <div class="news-letter-button">
+                            <button id="news-send">Subscribe</button>
+                            <img src="assets/images/mail-icon.png" alt="main icon">
+                        </div>
+                    </div>
+
+                    <div class="footer-right">
+                        <hr>
+                        <img src="assets/images/brain-code-icon.png" alt="icon" id="footer-icon">
+                        <h4>Himal Nimsara</h4>
+                        <div class="contact-number">
+                            <p id="call-me">Call Me</p>
+                            <p id="call-no">070 553 6860</p>
+                            <p id="whatsApp-contact">WhatsApp</p>
+                            <p id="wa-no">072 681 5648</a></p>
+                        </div>
+                    </div>
+
+                    <div class="footerBottom">
+                        <hr id="social-up">
+                        <hr>
+                        <p id="coppyright">© 2024 All rights reserved by Himal Nimsara</p>
+
+                        <div class="social-media-footer">
+                            <a href="https://www.linkedin.com/in/himal-nimsara?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                                <img src="assets/images/in-icon.svg" alt="Linkdin">
+                            </a>
+                            <a href="">
+                                <img src="assets/images/github-icon.png" alt="github">
+                            </a>
+                            <a href="https://x.com/HimalNimsara">
+                                <img src="assets/images/twitter-icon.svg" alt="Twitter">
+                            </a>
+                            <a href="https://www.instagram.com/himal_nimsara_?igsh=eGZzbHA4bHd0MXA=">
+                                <img src="assets/images/insta-icon.svg" alt="instagram">
+                            </a>
+                            <a href="https://wa.me/+94726815648">
+                                <img src="assets/images/whatsapp-icon.svg" alt="whatsApp">
+                            </a>
+                            <a href="https://web.facebook.com/himal.nimsara.18">
+                                <img src="assets/images/icons8-facebook-64.png" alt="facebook" id="facebook-footer">
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </footer>
+        </article>
+
+        <script src="assets/lib/jquery-3.7.1.min.js"></script>
+        <script src="assets/js/script.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </body>
+</html>

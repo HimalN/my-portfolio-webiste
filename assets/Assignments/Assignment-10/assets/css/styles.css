@@ -1,0 +1,75 @@
+body {
+    background-color: #00051e;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    font-size: 3rem;
+    border: none;
+    cursor: pointer;
+}
+
+.Calculator {
+    margin-top: 30px;
+    width: 80vw;
+    background-color: rgb(100, 100, 100);
+    padding: 15px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.Calculator>.input {
+    display: flex;
+    height: 15vh;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+.input>button {
+    width: 10vw;
+    aspect-ratio: 1/1;
+    border-radius: 10px 10px 10px 10px;
+    background-color: maroon;
+    color: white;
+}
+
+.input>button:hover {
+    background-color: rgb(153, 50, 50);
+}
+
+.input>button:active {
+    background-color: rgb(161, 89, 89);
+    color: white;
+}
+
+.Calculator>div>input {
+    text-align: right;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 3rem;
+    color: white;
+    border: none;
+    background-color: rgb(66, 66, 66);
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.buttons>button {
+    color: white;
+    border-radius: 100px 100px 100px 100px;
+    height: 15vh;
+    background-color: rgb(34, 34, 34);
+}
+
+.buttons>button:hover {
+    background-color: rgb(122, 122, 122);
+}
+
+.buttons>button:active {
+    background-color: rgb(160, 159, 159);
+    color: white;
+}
