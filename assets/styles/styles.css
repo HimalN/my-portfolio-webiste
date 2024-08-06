@@ -126,7 +126,7 @@ nav li:nth-child(2){
 }
 .sidebar a {
     width: 100%;
-    color: wheat;
+    color: #FF4853;
 }
 .sidebar>li>a:hover{
     color: #FF4853;
@@ -174,7 +174,7 @@ a:hover{
 
 }
 #mainTitle>h3>div>span {
-    font-family: "Arial Black", cursive;
+    font-family: "Arial Black";
     font-weight: 400;
     font-style: normal;
     color: #FF4853;
@@ -227,6 +227,9 @@ a:hover{
     top: 100px;
     bottom: 100px;
     left: 80px;
+}
+.socialIcons>a{
+    text-decoration: none;
 }
 #fb>svg>g:hover,#fb{
     fill: #FF4853;
@@ -852,6 +855,7 @@ a:hover{
 .assignment-square>a{
     position: relative;
     top: -55px;
+    text-decoration: none;
 }
 .assignment-square>a>img{
     width: 40px;
@@ -1475,6 +1479,7 @@ a:hover{
 .social-media-footer>a{
     position: relative;
     top: -12px;
+    text-decoration: none;
 }
 #facebook-footer{
     height: 58px;
@@ -1724,523 +1729,10 @@ a:hover{
     }
 
 }
-@media all and (max-width: 400px){
-    .sidebar{
-        width: 40%;
-        right: 0px;
-    }
-    #hide-bar>a{
-        padding: 0;
-    }
-    .menu-button>a{
-        padding: 0;
-    }
-    #hero {
-        height: 460px;
-    }
-    #myImage>#my-image1{
-        display: none;
-    }
-    #myImage>#my-image2{
-        display: block;
-        height: 300px;
-        width: 200px;
-        top: 159px;
-        left: 200px;
-        margin: 0;
-    }
-    .socialIcons {
-        display: inline;
-        top: 200px;
-        height: 40px;
-        left: 25px;
-    }
-    .socialIcons>a>svg{
-        height: 35px;
-        width: 35px;
-        padding-right: 10px;
-    }
-    .socialIcons>a>img{
-        height: 35px;
-        width: 35px;
-        padding-right: 10px;
-    }
 
-    .homeTitles {
-        height: 350px;
-        width: 340px;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 30px;
-        margin-top: 20px;
-        margin-bottom: 0;
-    }
-    #welcomeTitle {
-        font-size: 18px;
-    }
-    #mainTitle {
-        font-size: 25px;
-        height: 50px;
-        margin-top: 22px;
-    }
-    .words {
-        width: 300px;
-        height: 30px;
-        top: 88px;
-    }
-    #mainTitle>h3>div>span {
-        font-size: 25px;
-    }
-    #description{
-        display: none;
-    }
-    #description2{
-        display: block;
-        color: #FFF;
-        font-size: 20px;
-        font-family: Cabin;
-    }
-    .contactButtons {
-        height: 100px;
-        width: 150px;
-        position: relative;
-        top: 80px;
-    }
-    #idIcon {
-        top: -35px;
-        left: 20px;
-    }
-    #btn-contact {
-        width: 130px;
-    }
-    #phoneIcon {
-        top: -30px;
-        left: 20px;
-    }
-    #aboutTitles>h2 {
-        font-size: 30px;
-        top: 20px;
-        right: 0;
-        bottom: 0;
-        left: 110px;
-        margin: 0;
-        height: 50px;
-        width: 160px;
-    }
-    #aboutMe{
-        width: 400px;
-    }
-    #Aboutimage>img {
-        height: 250px;
-        width: 190px;
-        top: 80px;
-        right: 0;
-        bottom: 0;
-        left: 100px;
-        margin: 0;
-        border-radius: 10px 10px 10px 10px;
-    }
-    #see-gallery {
-        display: none;
-    }
-    #gallery-icon{
-        display: none;
-    }
-    #aboutTitles>p {
-        display: none;
-    }
-    #about2{
-        margin: 0;
-        color: white;
-        font-family: "Arial Narrow";
-        font-size: 15px;
-        position: absolute;
-        top: 350px;
-        right: 50px;
-        bottom: 0;
-        width: 300px;
-        height: 250px;
-        text-align: center;
-        display: block;
-    }
-    #aboutName2{
-        color: #FF4853;
-    }
-    #special-lang2{
-        color: #FF4853;
-    }
-    #se2{
-        color: #FF4853;
-    }
-    .education-header{
-        display: none;
-    }
-    .mobile-header{
-        display: block;
-        background-color: #0E0C16;
-        height: 80px;
-        width: 350px;
-        border-radius: 15px 15px 15px 15px;
-        position: relative;
-        left: 20px;
-        top: 20px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-    .mobile-header>div{
-        background-color: #100F16;
-        height: 70px;
-        width: 50px;
-        border-radius: 100px 100px 100px 100px;
-        margin-left: 20px;
-        margin-right: 20px;
-        position: relative;
-        top: 5px;
-    }
-    .educationbottom{
-        width: 398px;
-        height: 900px;
-    }
-    .education{
-        height: 1000px;
-        width: 400px;
-    }
-    .mobile-header>div>img{
-        height: 30px;
-        width: 30px;
-        position: relative;
-        left: 10px;
-        right: 0;
-        top: 10px;
-        bottom: 0;
-    }
-    .mobile-header>div>p{
-        color: #FFF;
-        font-family: Cabin;
-        font-size: 13px;
-        position: relative;
-    }
-    #mobile-skill-t{
-        position: relative;
-        top: 8px;
-        left: 7px;
-    }
-    #mobile-education-t{
-        position: relative;
-        top: 8px;
-        right: 2px;
-    }
-    #mobile-experience-t{
-        position: relative;
-        top: 8px;
-        right: 5px;
-    }
-    #mobile-assignment-t{
-        position: relative;
-        top: 8px;
-        right: 7px;
-    }
-    .skill-sliders {
-        width: 350px;
-        display: grid;
-        grid-template-columns: 32vw;
-        position: relative;
-        top: 5px;
-        left: 30px;
-        right: 0;
-        gap: 0;
-    }
-    .item1{
-        width: 350px;
-    }
-    .item3 {
-        display: none;
-
-    }
-    .item2{
-        width: 350px;
-        top: 15px;
-        position: relative;
-    }
-    .developmentSkillIcons{
-        position: relative;
-        top: -380px;
-    }
-    .developmentSkillIcons>img {
-        top: 0;
-        left: 22px;
-    }
-    .designSkillIcons>img {
-        top: -30px;
-        left: +18px;
-    }
-
-    /*Education*/
-    .education-qualification {
-        background-color: #14121B;
-        width: 100%;
-        height: 50vh;
-        position: relative;
-        top: 30px;
-        left: 0;
-    }
-    .edu-qualification-body {
-        grid-template-columns: 203px 227px;
-        justify-content: space-evenly;
-        left: 4px;
-        column-gap: 0px;
-        row-gap: 6px;
-    }
-    .edu-qualification-body>div {
-        height: 168px;
-        width: 189px;
-        border-radius: 20px;
-        background-color: #0B0A12;
-        color: #FFF;
-        text-align: center;
-        position: relative;
-        top: 20px;
-        margin-bottom: 10px;
-    }
-    .edu-qualification-body>div>p {
-        width: 190px;
-        height: 90px;
-        font-size: 11px;
-    }
-    .uniImages {
-        text-align: center;
-        width: 395px;
-        position: relative;
-        display: grid;
-        left: 165px;
-        top: 13px;
-    }
-    .uniImages>img {
-        padding-bottom: 25px;
-    }
-
-    /*Experience*/
-    .experience-body{
-        display: none;
-    }
-
-    /*Assignment*/
-    .assignmentSquare {
-        grid-template-columns: 110px 100px;
-        row-gap: 23px;
-        column-gap: 90px;
-        top: 55px;
-        left: 3%;
-        width: 385px;
-    }
-
-    /*Portfolio*/
-    .Portfolio {
-        background-color: #191721;
-        width: 400px;
-        height: 1000px;
-    }
-    .portfolio-header>h3 {
-        width: 300px;
-        left: 50px;
-    }
-    .portfolio-header>hr {
-        width: 220px;
-        position: relative;
-        top: 10px;
-        left: 90px;
-        margin: 0;
-    }
-    .portfolio-header>p {
-        width: 350px;
-        top: 2px;
-        left: 20px;
-    }
-    .portfolioContent {
-        position: relative;
-        left: 0;
-        top: 15px;
-        column-count: 2;
-        width: 398px;
-    }
-    .card {
-        width: 140px;
-        height: 100px;
-    }
-    .clientHeader {
-        text-align: center;
-        top: 20PX;
-        position: relative;
-        width: 398px;
-    }
-    .clientSection{
-        display: block;
-        width: 398px;
-    }
-    .client-back {
-        top: 30px;
-        left: 60px;
-        margin-bottom: 20px;
-    }
-    .card img {
-        display: none;
-    }
-    .info h1 {
-        top: 80px;
-    }
-
-    /*Clients*/
-    .Clients{
-        height: 1500px;
-    }
-    .clientHeader>h3{
-        width: 395px;
-    }
-    .clientHeader>hr{
-
-    }
-    .rating-stars{
-        width: 100px;
-    }
-    .Contact{
-        height: 800px;
-    }
-    .contact-image, .contact-box{
-        display: none;
-    }
-    .box2{
-        display: block;
-        margin: 0;
-        padding: 0;
-        background-color: #0B0A12;
-        height: 660px;
-        width: 350px;
-        top: 30px;
-        position: relative;
-        left: 25px;
-        border-radius: 20px 20px 20px 20px;
-    }
-    #Name {
-        left: 20px;
-    }
-    #lbl-name {
-        left: 85px;
-    }
-    #phone {
-        top: 10px;
-        left: 75px;
-    }
-    #lbl-phone {
-        top: 20px;
-        left: -185px;
-    }
-    #email {
-        top: 40px;
-        left: 78px;
-    }
-    #lbl-email {
-        top: 49px;
-        left: -126px;
-    }
-    #subject {
-        top: 70px;
-        left: 79px;
-    }
-    #message {
-        top: 35px;
-        left: 30px;
-        width: 85%;
-        height: 200px;
-    }
-    #lbl-subject {
-        top: 77px;
-        left: -128px;
-    }
-    #lbl-message {
-        top: 106px;
-        left: -126px;
-    }
-    #message {
-        top: 100px;
-    }
-    .message-button {
-        top: 100px;
-    }
-    #send-msg {
-
-        height: 45px;
-        width: 200px;
-        top: 0;
-        left: 82px;
-    }
-    .message-button>img {
-        left: 20px;
-        top: 17px;
-    }
-    .bottom {
-        height: 555px;
-    }
-    .footer {
-        height: 555px;
-    }
-    .pages {
-        position: relative;
-        width: 200px;
-        left: -40px;
-        top: 220px;
-    }
-    .Categories {
-        position: absolute;
-        height: 200px;
-        top: 240px;
-        left: 200px;
-    }
-    .footer-right {
-        left: 41px;
-    }
-    .footerBottom {
-        top: 480px;
-    }
-    .footerBottom>#coppyright {
-        margin: 0;
-        top: 40px;
-        left: 14px;
-        width: 380px;
-    }
-    .footerBottom>hr {
-        width: 398px;
-        margin: 0;
-        top: 30px;
-    }
-    #social-up{
-        width: 398px;
-        margin: 0;
-        position: relative;
-        top: -40px;
-    }
-    .news-letter{
-        display: none;
-    }
-    .social-media-footer>a>img {
-        top: 22px;
-        left: 0px;
-        height: 48px;
-        width: 48px;
-    }
-    #facebook-footer {
-        height: 57px;
-        width: 57px;
-    }
-    .social-media-footer {
-        top: -45px;
-        left: 5px;
-    }
-}
 @media all and (max-width: 425px) {
     .sidebar{
-        width: 40%;
+        width: 50%;
         right: 0px;
     }
     #hide-bar>a{
@@ -2343,7 +1835,7 @@ a:hover{
         width: 180px;
     }
     #aboutMe{
-        width: 424px;
+        width: 425px;
     }
     #Aboutimage>img {
         height: 250px;
@@ -2351,7 +1843,7 @@ a:hover{
         top: 80px;
         right: 0;
         bottom: 0;
-        left: 120px;
+        left: 126px;
         margin: 0;
         border-radius: 10px 10px 10px 10px;
     }
@@ -2491,7 +1983,7 @@ a:hover{
         left: +18px;
     }
 
-    /*Education*/
+    /*!*Education*!*/
     .education-qualification {
         background-color: #14121B;
         width: 100%;
@@ -2535,12 +2027,12 @@ a:hover{
         padding-bottom: 25px;
     }
 
-    /*Experience*/
+    /*!*Experience*!*/
     .experience-body{
         display: none;
     }
 
-    /*Assignment*/
+    /*!*Assignment*!*/
     .assignmentSquare {
         grid-template-columns: 107px 109px;
         row-gap: 23px;
@@ -2550,7 +2042,7 @@ a:hover{
         width: 385px;
     }
 
-    /*Portfolio*/
+    /*!*Portfolio*!*/
     .Portfolio {
         background-color: #191721;
         width: 425px;
@@ -2605,7 +2097,7 @@ a:hover{
         top: 80px;
     }
 
-    /*Clients*/
+    /*!*Clients*!*/
     .Clients{
         height: 1500px;
     }
@@ -2782,11 +2274,1060 @@ a:hover{
         left: 20px;
     }
 }
-@media all and (max-width: 375px) {
+
+@media all and (max-width: 400px){
+    nav {
+        background-color: #111017;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+        height: 50px;
+        z-index: 1;
+        position: relative;
+        width: 427px;
+    }
+    .sidebar{
+        width: 50%;
+        right: 0px;
+        height: 100%;
+    }
+    nav ul{
+        width: 94%;
+    }
+    #hide-bar>a{
+        padding: 0;
+    }
+    .menu-button{
+        position: absolute;
+        left: 363px;
+    }
+    .menu-button>a{
+        padding: 0;
+    }
+    #hero {
+        height: 460px;
+        width: 427px;
+    }
+    #myImage>#my-image1{
+        display: none;
+    }
+    #myImage>#my-image2{
+        display: block;
+        height: 300px;
+        width: 200px;
+        top: 159px;
+        left: 200px;
+        margin: 0;
+    }
+    .socialIcons {
+        display: inline;
+        top: 200px;
+        height: 40px;
+        left: 25px;
+    }
+    .socialIcons>a>svg{
+        height: 35px;
+        width: 35px;
+        padding-right: 10px;
+    }
+    .socialIcons>a>img{
+        height: 35px;
+        width: 35px;
+        padding-right: 10px;
+    }
+
+    .homeTitles {
+        height: 350px;
+        width: 340px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 30px;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    #welcomeTitle {
+        font-size: 18px;
+    }
+    #mainTitle {
+        font-size: 25px;
+        height: 50px;
+        margin-top: 22px;
+    }
+    .words {
+        width: 300px;
+        height: 30px;
+        top: 88px;
+    }
+    #mainTitle>h3>div>span {
+        font-size: 25px;
+    }
+    #description{
+        display: none;
+    }
+    #description2{
+        display: block;
+        color: #FFF;
+        font-size: 20px;
+        font-family: Cabin;
+    }
+    .contactButtons {
+        height: 100px;
+        width: 150px;
+        position: relative;
+        top: 80px;
+    }
+    #idIcon {
+        top: -35px;
+        left: 20px;
+    }
+    #btn-contact {
+        width: 130px;
+    }
+    #phoneIcon {
+        top: -30px;
+        left: 20px;
+    }
+    #aboutTitles>h2 {
+        font-size: 30px;
+        top: 20px;
+        left: 123px;
+        margin: 0;
+        width: 170px;
+    }
+    #aboutMe{
+        width: 427px;
+    }
+    #Aboutimage>img {
+        height: 250px;
+        width: 190px;
+        top: 80px;
+        right: 0;
+        bottom: 0;
+        left: 115px;
+        margin: 0;
+        border-radius: 10px 10px 10px 10px;
+    }
+    #see-gallery {
+        display: none;
+    }
+    #gallery-icon{
+        display: none;
+    }
+    #aboutTitles>p {
+        display: none;
+    }
+    #about2{
+        margin: 0;
+        color: white;
+        font-family: "Arial Narrow";
+        font-size: 15px;
+        position: absolute;
+        top: 350px;
+        right: 70px;
+        bottom: 0;
+        width: 300px;
+        height: 250px;
+        text-align: center;
+        display: block;
+    }
+    #aboutName2{
+        color: #FF4853;
+    }
+    #special-lang2{
+        color: #FF4853;
+    }
+    #se2{
+        color: #FF4853;
+    }
+    .education-header{
+        display: none;
+    }
+    .mobile-header{
+        display: block;
+        background-color: #0E0C16;
+        height: 80px;
+        width: 350px;
+        border-radius: 15px 15px 15px 15px;
+        position: relative;
+        left: 37px;
+        top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .mobile-header>div{
+        background-color: #100F16;
+        height: 70px;
+        width: 50px;
+        border-radius: 100px 100px 100px 100px;
+        margin-left: 20px;
+        margin-right: 20px;
+        position: relative;
+        top: 5px;
+    }
+    .educationbottom{
+        width: 398px;
+        height: 900px;
+    }
+    .education{
+        height: 1000px;
+        width: 427px;
+    }
+    .mobile-header>div>img{
+        height: 30px;
+        width: 30px;
+        position: relative;
+        left: 10px;
+        right: 0;
+        top: 10px;
+        bottom: 0;
+    }
+    .mobile-header>div>p{
+        color: #FFF;
+        font-family: Cabin;
+        font-size: 13px;
+        position: relative;
+    }
+    #mobile-skill-t{
+        position: relative;
+        top: 8px;
+        left: 7px;
+    }
+    #mobile-education-t{
+        position: relative;
+        top: 8px;
+        right: 2px;
+    }
+    #mobile-experience-t{
+        position: relative;
+        top: 8px;
+        right: 5px;
+    }
+    #mobile-assignment-t{
+        position: relative;
+        top: 8px;
+        right: 7px;
+    }
+    .skill-sliders {
+        width: 350px;
+        display: grid;
+        grid-template-columns: 32vw;
+        position: relative;
+        top: 5px;
+        left: 30px;
+        right: 0;
+        gap: 0;
+    }
+    .item1{
+        width: 350px;
+    }
+    .item3 {
+        display: none;
+
+    }
+    .item2{
+        width: 350px;
+        top: 15px;
+        position: relative;
+    }
+    .developmentSkillIcons{
+        position: relative;
+        top: -380px;
+    }
+    .developmentSkillIcons>img {
+        top: 0;
+        left: 22px;
+    }
+    .designSkillIcons>img {
+        top: -30px;
+        left: +18px;
+    }
+
+    /*Education*/
+    .education-qualification {
+        background-color: #14121B;
+        width: 100%;
+        height: 50vh;
+        position: relative;
+        top: 30px;
+        left: 0;
+    }
+    .edu-qualification-body {
+        grid-template-columns: 203px 227px;
+        justify-content: space-evenly;
+        left: 4px;
+        column-gap: 0px;
+        row-gap: 6px;
+    }
+    .edu-qualification-body>div {
+        height: 168px;
+        width: 189px;
+        border-radius: 20px;
+        background-color: #0B0A12;
+        color: #FFF;
+        text-align: center;
+        position: relative;
+        top: 20px;
+        left: 20px;
+        margin-bottom: 10px;
+    }
+    .edu-qualification-body>div>p {
+        width: 190px;
+        height: 90px;
+        font-size: 11px;
+    }
+    .uniImages {
+        text-align: center;
+        width: 200px;
+        position: relative;
+        display: grid;
+        left: 165px;
+        top: 13px;
+    }
+    .uniImages>img {
+        padding-bottom: 25px;
+        position: relative;
+        left: -25px;
+    }
+
+    /*Experience*/
+    .experience-body{
+        display: none;
+    }
+
+    /*Assignment*/
+    .assignmentSquare {
+        grid-template-columns: 110px 100px;
+        row-gap: 23px;
+        column-gap: 90px;
+        top: 55px;
+        left: 3%;
+        width: 385px;
+    }
+
+    /*Portfolio*/
+    .Portfolio {
+        background-color: #191721;
+        width: 427px;
+        height: 1000px;
+    }
+    .portfolio-header>h3 {
+        width: 300px;
+        left: 65px;
+    }
+    .portfolio-header>hr {
+        width: 220px;
+        position: relative;
+        top: 10px;
+        left: 100px;
+        margin: 0;
+    }
+    .portfolio-header>p {
+        width: 350px;
+        top: 2px;
+        left: 40px;
+    }
+    .portfolioContent {
+        position: relative;
+        left: 15px;
+        top: 15px;
+        column-count: 2;
+        width: 398px;
+    }
+    .card {
+        width: 140px;
+        height: 100px;
+    }
+    .Clients{
+        width: 427px;
+    }
+    .clientHeader {
+        text-align: center;
+        top: 20PX;
+        position: relative;
+        width: 398px;
+    }
+    .clientSection{
+        display: block;
+        width: 398px;
+    }
+    .client-back {
+        top: 30px;
+        left: 85px;
+        margin-bottom: 20px;
+    }
+    .card img {
+        display: none;
+    }
+    .info h1 {
+        top: 80px;
+    }
+
+    /*Clients*/
+    .Clients{
+        height: 1500px;
+    }
+    .clientHeader>h3{
+        width: 395px;
+    }
+    .clientHeader>hr{
+
+    }
+    .rating-stars{
+        width: 100px;
+    }
+    .Contact{
+        height: 800px;
+        width: 427px;
+    }
+    .contact-image, .contact-box{
+        display: none;
+    }
+    .box2{
+        display: block;
+        margin: 0;
+        padding: 0;
+        background-color: #0B0A12;
+        height: 660px;
+        width: 350px;
+        top: 30px;
+        position: relative;
+        left: 25px;
+        border-radius: 20px 20px 20px 20px;
+    }
+    #Name {
+        left: 5px;
+    }
+    #lbl-name {
+        left: 65px;
+    }
+    #phone {
+        top: 25px;
+        left: 3px;
+    }
+    #lbl-phone {
+        top: 20px;
+        left: -185px;
+    }
+    #email {
+        top: 70px;
+        left: 13px;
+    }
+    #lbl-email {
+        top: 49px;
+        left: -126px;
+    }
+    #subject {
+        top: 70px;
+        left: 79px;
+    }
+    #message {
+        top: 35px;
+        left: 30px;
+        width: 85%;
+        height: 200px;
+    }
+    #lbl-subject {
+        top: 77px;
+        left: -128px;
+    }
+    #lbl-message {
+        top: 106px;
+        left: -126px;
+    }
+    #message {
+        top: 100px;
+    }
+    .message-button {
+        top: 100px;
+    }
+    #send-msg {
+
+        height: 45px;
+        width: 200px;
+        top: 0;
+        left: 82px;
+    }
+    .message-button>img {
+        left: 20px;
+        top: 17px;
+    }
+    .bottom {
+        height: 555px;
+    }
+    .footer {
+        height: 555px;
+        width: 427px;
+    }
+    .pages {
+        position: relative;
+        width: 200px;
+        left: -40px;
+        top: 220px;
+    }
+    .Categories {
+        position: absolute;
+        height: 200px;
+        top: 240px;
+        left: 200px;
+    }
+    .footer-right {
+        left: 41px;
+    }
+    .footerBottom {
+        top: 480px;
+    }
+    .footerBottom>#coppyright {
+        margin: 0;
+        top: 40px;
+        left: 14px;
+        width: 380px;
+    }
+    .footerBottom>hr {
+        width: 398px;
+        margin: 0;
+        top: 30px;
+    }
+    #social-up{
+        width: 398px;
+        margin: 0;
+        position: relative;
+        top: -40px;
+    }
+    .news-letter{
+        display: none;
+    }
+    .social-media-footer>a>img {
+        top: 22px;
+        left: 0px;
+        height: 48px;
+        width: 48px;
+    }
+    #facebook-footer {
+        height: 57px;
+        width: 57px;
+    }
+    .social-media-footer {
+        top: -45px;
+        left: 5px;
+    }
+    @media all and (max-width: 375px){
+        nav {
+            background-color: #111017;
+            box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+            height: 50px;
+            z-index: 1;
+            position: relative;
+            width: 375px;
+        }
+        .sidebar{
+            width: 50%;
+            right: 53px;
+            height: 100%;
+        }
+        nav ul{
+            width: 94%;
+        }
+        #hide-bar>a{
+            padding: 0;
+        }
+        .menu-button{
+            position: absolute;
+            left: 310px;
+        }
+        .menu-button>a{
+            padding: 0;
+        }
+        #hero {
+            height: 460px;
+            width: 375px;
+        }
+        #myImage>#my-image1{
+            display: none;
+        }
+        #myImage>#my-image2{
+            display: block;
+            height: 260px;
+            width: 175px;
+            top: 200px;
+            left: 200px;
+            margin: 0;
+        }
+        .socialIcons {
+            display: inline;
+            top: 200px;
+            height: 40px;
+            left: 25px;
+        }
+        .socialIcons>a>svg{
+            height: 35px;
+            width: 35px;
+            padding-right: 10px;
+        }
+        .socialIcons>a>img{
+            height: 35px;
+            width: 35px;
+            padding-right: 10px;
+        }
+
+        .homeTitles {
+            height: 350px;
+            width: 340px;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 30px;
+            margin-top: 20px;
+            margin-bottom: 0;
+        }
+        #welcomeTitle {
+            font-size: 18px;
+        }
+        #mainTitle {
+            font-size: 25px;
+            height: 50px;
+            margin-top: 22px;
+        }
+        .words {
+            width: 300px;
+            height: 30px;
+            top: 88px;
+        }
+        #mainTitle>h3>div>span {
+            font-size: 25px;
+        }
+        #description{
+            display: none;
+        }
+        #description2{
+            display: block;
+            color: #FFF;
+            font-size: 20px;
+            font-family: Cabin;
+        }
+        .contactButtons {
+            height: 100px;
+            width: 150px;
+            position: relative;
+            top: 80px;
+        }
+        #idIcon {
+            top: -35px;
+            left: 20px;
+        }
+        #btn-contact {
+            width: 130px;
+        }
+        #phoneIcon {
+            top: -30px;
+            left: 20px;
+        }
+        #aboutTitles>h2 {
+            font-size: 30px;
+            top: 20px;
+            left: 112px;
+            margin: 0;
+            width: 170px;
+        }
+        #aboutMe{
+            width: 375px;
+        }
+        #Aboutimage>img {
+            height: 250px;
+            width: 190px;
+            top: 80px;
+            right: 0;
+            bottom: 0;
+            left: 100px;
+            margin: 0;
+            border-radius: 10px 10px 10px 10px;
+        }
+        #see-gallery {
+            display: none;
+        }
+        #gallery-icon{
+            display: none;
+        }
+        #aboutTitles>p {
+            display: none;
+        }
+        #about2{
+            right: 30px;
+        }
+        #aboutName2{
+            color: #FF4853;
+        }
+        #special-lang2{
+            color: #FF4853;
+        }
+        #se2{
+            color: #FF4853;
+        }
+        .education-header{
+            display: none;
+        }
+        .mobile-header{
+            left: 13px;
+        }
+        .mobile-header>div{
+            background-color: #100F16;
+            height: 70px;
+            width: 50px;
+            border-radius: 100px 100px 100px 100px;
+            margin-left: 20px;
+            margin-right: 20px;
+            position: relative;
+            top: 5px;
+        }
+        .educationbottom{
+            width: 398px;
+            height: 900px;
+        }
+        .education{
+            height: 1000px;
+            width: 375px;
+        }
+        .mobile-header>div>img{
+            height: 30px;
+            width: 30px;
+            position: relative;
+            left: 10px;
+            right: 0;
+            top: 10px;
+            bottom: 0;
+        }
+        .mobile-header>div>p{
+            color: #FFF;
+            font-family: Cabin;
+            font-size: 13px;
+            position: relative;
+        }
+        #mobile-skill-t{
+            position: relative;
+            top: 8px;
+            left: 7px;
+        }
+        #mobile-education-t{
+            position: relative;
+            top: 8px;
+            right: 2px;
+        }
+        #mobile-experience-t{
+            position: relative;
+            top: 8px;
+            right: 5px;
+        }
+        #mobile-assignment-t{
+            position: relative;
+            top: 8px;
+            right: 7px;
+        }
+        .professionalskills{
+
+        }
+        .skill-sliders {
+            width: 345px;
+            display: grid;
+            grid-template-columns: 32vw;
+            position: relative;
+            top: 5px;
+            left: 30px;
+            right: 0;
+            gap: 0;
+        }
+        .item1{
+            width: 345px;
+        }
+        .item3 {
+            display: none;
+
+        }
+        .item2{
+            width: 345px;
+            top: 15px;
+            position: relative;
+        }
+        .developmentSkillIcons{
+            position: relative;
+            top: -380px;
+            width: 374px;
+        }
+        .developmentSkillIcons>img {
+            top: 0;
+            left: 22px;
+        }
+        .designSkillIcons>img {
+            top: -30px;
+            left: +18px;
+        }
+
+        /*Education*/
+        .education-qualification {
+            width: 100%;
+            height: 50vh;
+            position: relative;
+            top: 30px;
+            left: 0;
+            display: none;
+        }
+        .edu-qualification-body {
+            grid-template-columns: 203px 227px;
+            justify-content: space-evenly;
+            left: 4px;
+            column-gap: 0px;
+            row-gap: 6px;
+            display: none;
+        }
+        .edu-qualification-body>div {
+            height: 168px;
+            width: 189px;
+            border-radius: 20px;
+            background-color: #0B0A12;
+            color: #FFF;
+            text-align: center;
+            position: relative;
+            top: 20px;
+            left: 20px;
+            margin-bottom: 10px;
+        }
+        .edu-qualification-body>div>p {
+            width: 190px;
+            height: 90px;
+            font-size: 11px;
+        }
+        .uniImages {
+            text-align: center;
+            width: 200px;
+            position: relative;
+            display: grid;
+            left: 165px;
+            top: 13px;
+        }
+        .uniImages>img {
+            padding-bottom: 25px;
+            position: relative;
+            left: -25px;
+        }
+
+        /*Experience*/
+        .experience-body{
+            display: none;
+        }
+
+        /*Assignment*/
+        .assignmentSquare {
+            grid-template-columns: 110px 100px;
+            row-gap: 23px;
+            column-gap: 90px;
+            top: 55px;
+            left: 3%;
+            width: 385px;
+        }
+
+        /*Portfolio*/
+        .Portfolio {
+            width: 375px;
+        }
+        .portfolio-header>h3 {
+            width: 300px;
+            left: 65px;
+        }
+        .portfolio-header>hr {
+            width: 220px;
+            position: relative;
+            top: 10px;
+            left: 100px;
+            margin: 0;
+        }
+        .portfolio-header>p {
+            width: 350px;
+            top: 2px;
+            left: 40px;
+        }
+        .portfolioContent {
+            position: relative;
+            left: 15px;
+            top: 15px;
+            column-count: 2;
+            width: 398px;
+        }
+        .card {
+            width: 140px;
+            height: 100px;
+        }
+        .Clients{
+            width: 375px;
+        }
+        .clientHeader {
+            text-align: center;
+            top: 20PX;
+            position: relative;
+            width: 398px;
+        }
+        .clientSection{
+            display: block;
+            width: 398px;
+        }
+        .client-back {
+            top: 30px;
+            left: 85px;
+            margin-bottom: 20px;
+        }
+        .card img {
+            display: none;
+        }
+        .info h1 {
+            top: 80px;
+        }
+
+        /*Clients*/
+        .Clients{
+            height: 1500px;
+        }
+        .clientHeader>h3{
+            width: 395px;
+        }
+        .clientHeader>hr{
+
+        }
+        .rating-stars{
+            width: 100px;
+        }
+        .Contact{
+            height: 800px;
+            width: 375px;
+        }
+        .contact-image, .contact-box{
+            display: none;
+        }
+        .box2{
+            display: block;
+            margin: 0;
+            padding: 0;
+            background-color: #0B0A12;
+            height: 660px;
+            width: 350px;
+            top: 30px;
+            position: relative;
+            left: 25px;
+            border-radius: 20px 20px 20px 20px;
+        }
+        #Name {
+            left: 5px;
+        }
+        #lbl-name {
+            left: 65px;
+        }
+        #phone {
+            top: 25px;
+            left: 3px;
+        }
+        #lbl-phone {
+            top: 20px;
+            left: -185px;
+        }
+        #email {
+            top: 70px;
+            left: 13px;
+        }
+        #lbl-email {
+            top: 49px;
+            left: -126px;
+        }
+        #subject {
+            top: 70px;
+            left: 79px;
+        }
+        #message {
+            top: 35px;
+            left: 30px;
+            width: 85%;
+            height: 200px;
+        }
+        #lbl-subject {
+            top: 77px;
+            left: -128px;
+        }
+        #lbl-message {
+            top: 106px;
+            left: -126px;
+        }
+        #message {
+            top: 100px;
+        }
+        .message-button {
+            top: 100px;
+        }
+        #send-msg {
+
+            height: 45px;
+            width: 200px;
+            top: 0;
+            left: 82px;
+        }
+        .message-button>img {
+            left: 20px;
+            top: 17px;
+        }
+        .bottom {
+            height: 555px;
+        }
+        .footer {
+            height: 555px;
+            width: 427px;
+        }
+        .pages {
+            position: relative;
+            width: 200px;
+            left: -40px;
+            top: 220px;
+        }
+        .Categories {
+            position: absolute;
+            height: 200px;
+            top: 240px;
+            left: 200px;
+        }
+        .footer-right {
+            left: 41px;
+        }
+        .footerBottom {
+            top: 480px;
+        }
+        .footerBottom>#coppyright {
+            margin: 0;
+            top: 40px;
+            left: 14px;
+            width: 380px;
+        }
+        .footerBottom>hr {
+            width: 398px;
+            margin: 0;
+            top: 30px;
+        }
+        #social-up{
+            width: 398px;
+            margin: 0;
+            position: relative;
+            top: -40px;
+        }
+        .news-letter{
+            display: none;
+        }
+        .social-media-footer>a>img {
+            top: 22px;
+            left: 0px;
+            height: 48px;
+            width: 48px;
+        }
+        #facebook-footer {
+            height: 57px;
+            width: 57px;
+        }
+        .social-media-footer {
+            top: -45px;
+            left: 5px;
+        }
 
 
-
-}
-@media all and (max-width: 4320px) {
-
+    }
 }
